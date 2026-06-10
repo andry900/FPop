@@ -97,6 +97,7 @@ STOPWORDS = {
     "senza",
     "the",
     "and",
+    "e",
     "for",
     "from",
     "per",
