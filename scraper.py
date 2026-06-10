@@ -291,6 +291,37 @@ def dedupe_sales(sales: list[SaleCandidate]) -> list[SaleCandidate]:
     return unique
 
 
+def stable_limit_sales(sales: list[SaleCandidate], max_items: int) -> list[SaleCandidate]:
+    """Return a deterministic subset of sales with stable ordering.
+
+    eBay can return rows in different orders across close runs. To keep
+    averages stable, we first sort by price/title, then (if needed) keep the
+    rows closest to the median price, and finally return them in stable order.
+    """
+    if max_items < 1:
+        return []
+
+    # Canonical order independent from page row order.
+    ordered = sorted(sales, key=lambda s: (round(s.price, 2), normalize_text(s.title)))
+    if len(ordered) <= max_items:
+        return ordered
+
+    prices = [s.price for s in ordered]
+    mid = len(prices) // 2
+    if len(prices) % 2 == 1:
+        median = prices[mid]
+    else:
+        median = (prices[mid - 1] + prices[mid]) / 2.0
+
+    # Keep prices nearest to the median to reduce sensitivity to tails.
+    picked = sorted(
+        ordered,
+        key=lambda s: (abs(s.price - median), round(s.price, 2), normalize_text(s.title)),
+    )[:max_items]
+
+    return sorted(picked, key=lambda s: (round(s.price, 2), normalize_text(s.title)))
+
+
 def extract_price(price_text: str) -> tuple[float, str] | None:
     amounts: list[float] = []
     for pattern in PRICE_PATTERNS:
@@ -762,6 +793,7 @@ def collect_valid_sales_from_page(
     stop_on_related_sections: bool = True,
     adjust_international_costs: bool = False,
     force_international_rows: bool = False,
+    limit_mode: str = "stable",
 ) -> tuple[list[SaleCandidate], int, int, int, int]:
     items = listing_rows(page)
     count = items.count()
@@ -856,8 +888,13 @@ def collect_valid_sales_from_page(
 
         valid_sales.append(SaleCandidate(title=title, price=value, price_display=display))
 
-        if len(valid_sales) >= max_valid_sales:
+        if limit_mode == "page_order" and len(valid_sales) >= max_valid_sales:
             break
+
+    # For active listings we still want a stable sample after scanning all
+    # readable rows, but sold items should keep the page order (newest first).
+    if limit_mode == "stable" and len(valid_sales) > max_valid_sales:
+        valid_sales = stable_limit_sales(valid_sales, max_valid_sales)
 
     return valid_sales, scanned_rows, excluded_banned, excluded_irrelevant, excluded_bundle
 
@@ -942,6 +979,7 @@ def scrape_product(
             max_valid_sales=max_valid_sales,
             max_allowed_price=max_allowed_price,
             adjust_international_costs=True,
+            limit_mode="page_order",
         )
 
         if not valid_sales:
@@ -964,6 +1002,7 @@ def scrape_product(
                     max_valid_sales=max_valid_sales,
                     max_allowed_price=max_allowed_price,
                     adjust_international_costs=True,
+                    limit_mode="page_order",
                 )
 
     sold_it_found = len(valid_sales)
@@ -999,6 +1038,7 @@ def scrape_product(
                     stop_on_related_sections=False,
                     adjust_international_costs=True,
                     force_international_rows=True,
+                    limit_mode="page_order",
                 )
 
                 # Merge with existing valid_sales (both local and international)
