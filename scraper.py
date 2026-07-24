@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import time
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
@@ -697,6 +698,49 @@ def is_transient_wait_page(page: Any) -> bool:
     )
 
 
+def is_login_page(page: Any) -> bool:
+    url = normalize_text(page.url)
+    title = normalize_text(_safe_page_title(page))
+    body = normalize_text(_safe_page_body_text(page))
+    return (
+        "signin.ebay" in url
+        or "/signin" in url
+        or "account/signin" in url
+        or "accedi" in title and "ebay" in title
+        or "sign in" in title and "ebay" in title
+        or "registrati o accedi" in body
+        or "accedi o registrati" in body
+        or "continua con l accesso" in body
+        or "continue with sign in" in body
+    )
+
+
+def try_dismiss_login(page: Any) -> None:
+    selectors = [
+        "button:has-text('No grazie')",
+        "button:has-text('Non ora')",
+        "button:has-text('Continua senza')",
+        "button:has-text('Continue without')",
+        "button:has-text('Maybe later')",
+        "button:has-text('Resta disconnesso')",
+        "button[aria-label='Chiudi']",
+        "button[aria-label='Close']",
+        "#passkeys-cancel-btn",
+    ]
+    for selector in selectors:
+        try:
+            el = page.locator(selector)
+            if el.count() > 0 and el.first.is_visible():
+                el.first.click(timeout=2000)
+                page.wait_for_timeout(1000)
+        except Exception:
+            continue
+
+
+def is_access_blocked(page: Any) -> bool:
+    return is_access_denied(page) or is_login_page(page)
+
+
 def wait_for_ebay_results(page: Any, timeout_ms: int) -> None:
     wait_step_ms = 1000
     max_wait_ms = min(timeout_ms, 15000)
@@ -704,12 +748,13 @@ def wait_for_ebay_results(page: Any, timeout_ms: int) -> None:
 
     while elapsed_ms < max_wait_ms:
         denied = is_access_denied(page)
+        login_page = is_login_page(page)
         waiting = is_transient_wait_page(page)
 
-        if denied and not waiting:
+        if (denied or login_page) and not waiting:
             return
 
-        if not denied and not waiting:
+        if not denied and not login_page and not waiting:
             rows = listing_rows(page).count()
             if rows > 0 or has_no_exact_match(page):
                 return
@@ -725,28 +770,46 @@ def navigate_with_retries(
     timeout_ms: int,
     max_denied_retries: int,
     manual_challenge: bool,
+    manual_challenge_timeout_seconds: int,
     name: str,
     phase_label: str,
 ) -> bool:
+    def wait_until_access_cleared(timeout_seconds: int) -> bool:
+        deadline = time.time() + max(1, timeout_seconds)
+        while time.time() < deadline:
+            if not is_access_blocked(page):
+                return True
+            wait_for_ebay_results(page, timeout_ms)
+            page.wait_for_timeout(1200)
+        return not is_access_blocked(page)
+
     for attempt in range(1, max_denied_retries + 1):
         page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
         wait_for_ebay_results(page, timeout_ms)
-        if not is_access_denied(page):
+        if is_login_page(page):
+            print(f"[INFO] Login eBay rilevato per '{name}' ({phase_label}), provo modalita guest...")
+            try_dismiss_login(page)
+            wait_for_ebay_results(page, timeout_ms)
+
+        if not is_access_blocked(page):
             return True
 
         if manual_challenge:
             print(
-                f"[INFO] Access Denied per '{name}' ({phase_label}, tentativo {attempt}/{max_denied_retries})."
+                f"[INFO] Accesso bloccato per '{name}' ({phase_label}, tentativo {attempt}/{max_denied_retries})."
             )
             print("[INFO] Risolvi eventuale challenge nel browser aperto, poi premi INVIO qui.")
             input()
-            wait_for_ebay_results(page, timeout_ms)
-            if not is_access_denied(page):
+            print(
+                f"[INFO] Verifico risoluzione challenge/login (attendo fino a {manual_challenge_timeout_seconds}s)..."
+            )
+            if wait_until_access_cleared(manual_challenge_timeout_seconds):
                 return True
+            print("[WARN] Blocco ancora attivo dopo il timeout manuale.")
 
         if attempt < max_denied_retries:
             print(
-                f"[WARN] Access Denied per '{name}' ({phase_label}, tentativo {attempt}/{max_denied_retries}), riprovo subito..."
+                f"[WARN] Accesso bloccato per '{name}' ({phase_label}, tentativo {attempt}/{max_denied_retries}), riprovo subito..."
             )
     return False
 
@@ -910,6 +973,7 @@ def scrape_product(
     max_valid_sales: int,
     timeout_ms: int,
     manual_challenge: bool,
+    manual_challenge_timeout_seconds: int,
     required_number: str | None = None,
     allowed_title_numbers: list[str] | None = None,
 ) -> ProductResult:
@@ -922,6 +986,7 @@ def scrape_product(
         timeout_ms=timeout_ms,
         max_denied_retries=max_denied_retries,
         manual_challenge=manual_challenge,
+        manual_challenge_timeout_seconds=manual_challenge_timeout_seconds,
         name=name,
         phase_label="venduti",
     ):
@@ -1019,6 +1084,7 @@ def scrape_product(
                 timeout_ms=timeout_ms,
                 max_denied_retries=max_denied_retries,
                 manual_challenge=manual_challenge,
+                manual_challenge_timeout_seconds=manual_challenge_timeout_seconds,
                 name=name,
                 phase_label="venduti internazionali",
             )
@@ -1120,6 +1186,7 @@ def scrape_product(
                 timeout_ms=timeout_ms,
                 max_denied_retries=max_denied_retries,
                 manual_challenge=manual_challenge,
+                manual_challenge_timeout_seconds=manual_challenge_timeout_seconds,
                 name=name,
                 phase_label="annunci attivi",
             )
@@ -1187,6 +1254,7 @@ def scrape_product(
                             timeout_ms=timeout_ms,
                             max_denied_retries=max_denied_retries,
                             manual_challenge=manual_challenge,
+                            manual_challenge_timeout_seconds=manual_challenge_timeout_seconds,
                             name=name,
                             phase_label="annunci attivi internazionali",
                         )
@@ -1315,6 +1383,63 @@ def load_products(config_path: Path) -> list[dict[str, Any]]:
     return data
 
 
+def create_browser_context(p: Any, args: argparse.Namespace) -> tuple[Any, Any, bool]:
+    """Create browser/context using selected strategy.
+
+    Returns (browser, context, context_is_browser).
+    If context_is_browser is True, closing context is enough.
+    """
+    mode = args.browser_mode
+
+    if mode == "persistent-chrome":
+        if args.headless:
+            raise ValueError("La modalita persistent-chrome richiede browser visibile (senza --headless).")
+
+        profile_dir = str(Path(args.user_data_dir).resolve())
+        launch_kwargs: dict[str, Any] = {
+            "headless": False,
+            "locale": "it-IT",
+            "args": [
+                "--disable-blink-features=AutomationControlled",
+                "--disable-infobars",
+            ],
+            "ignore_default_args": ["--enable-automation"],
+        }
+        if args.browser_executable_path.strip():
+            launch_kwargs["executable_path"] = args.browser_executable_path.strip()
+        else:
+            launch_kwargs["channel"] = "chrome"
+
+        context = p.chromium.launch_persistent_context(profile_dir, **launch_kwargs)
+        return context.browser, context, True
+
+    if mode == "connect-cdp":
+        if not args.cdp_url.strip():
+            raise ValueError("Per --browser-mode connect-cdp devi impostare --cdp-url.")
+
+        try:
+            browser = p.chromium.connect_over_cdp(args.cdp_url.strip())
+        except PlaywrightError as exc:
+            raise ValueError(
+                "Impossibile connettersi a CDP. Avvia Brave/Chrome con "
+                "--remote-debugging-port=9222 e verifica che la porta sia in ascolto. "
+                f"Dettaglio: {exc}"
+            ) from exc
+
+        if browser.contexts:
+            context = browser.contexts[0]
+        else:
+            context = browser.new_context(locale="it-IT")
+        return browser, context, False
+
+    launch_options: dict[str, Any] = {"headless": args.headless}
+    if args.browser_executable_path.strip():
+        launch_options["executable_path"] = args.browser_executable_path.strip()
+    browser = p.chromium.launch(**launch_options)
+    context = browser.new_context(locale="it-IT")
+    return browser, context, False
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Estrae prezzi medi dei Funko Pop venduti su eBay filtrando annunci non pertinenti e set/lotti."
@@ -1328,9 +1453,39 @@ def main() -> None:
         help="In caso di challenge/access denied, consente risoluzione manuale nel browser prima del retry.",
     )
     parser.add_argument(
+        "--manual-challenge-timeout-seconds",
+        type=int,
+        default=180,
+        help="Timeout attesa risoluzione challenge/login manuale dopo INVIO (default: 180s).",
+    )
+    parser.add_argument(
         "--browser-executable-path",
         default="",
         help="Percorso eseguibile browser (es. Brave). Se vuoto usa Chromium di Playwright.",
+    )
+    parser.add_argument(
+        "--browser-mode",
+        choices=["playwright", "persistent-chrome", "connect-cdp"],
+        default="playwright",
+        help=(
+            "Strategia browser: 'playwright' (default), 'persistent-chrome' (Chrome/Brave reale con profilo persistente), "
+            "'connect-cdp' (si collega a browser gia aperto via DevTools)."
+        ),
+    )
+    parser.add_argument(
+        "--user-data-dir",
+        default=".browser_profile",
+        help="Cartella profilo per --browser-mode persistent-chrome (default: .browser_profile).",
+    )
+    parser.add_argument(
+        "--cdp-url",
+        default="http://127.0.0.1:9222",
+        help="URL DevTools per --browser-mode connect-cdp (default: http://127.0.0.1:9222).",
+    )
+    parser.add_argument(
+        "--use-existing-page",
+        action="store_true",
+        help="Con --browser-mode connect-cdp riusa il primo tab gia aperto invece di crearne uno nuovo.",
     )
     parser.add_argument(
         "--max-valid-sales",
@@ -1361,13 +1516,19 @@ def main() -> None:
     results: list[ProductResult] = []
 
     with sync_playwright() as p:
-        launch_options: dict[str, Any] = {"headless": args.headless}
-        if args.browser_executable_path.strip():
-            launch_options["executable_path"] = args.browser_executable_path.strip()
+        browser, context, context_is_browser = create_browser_context(p, args)
+        if args.browser_mode == "connect-cdp" and args.use_existing_page:
+            existing_pages = [pg for pg in context.pages if not pg.url.startswith("about:blank")]
+            if existing_pages:
+                page = existing_pages[0]
+                print(f"[INFO] Riuso tab esistente: {page.url}")
+            else:
+                page = context.new_page()
+                print("[INFO] Nessun tab esistente trovato, apro un nuovo tab.")
+        else:
+            page = context.new_page()
 
-        browser = p.chromium.launch(**launch_options)
-        context = browser.new_context(locale="it-IT")
-        page = context.new_page()
+        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
 
         for product in products:
             name = str(product.get("name") or product.get("url"))
@@ -1393,6 +1554,7 @@ def main() -> None:
                     max_valid_sales=args.max_valid_sales,
                     timeout_ms=args.timeout_ms,
                     manual_challenge=args.manual_challenge,
+                    manual_challenge_timeout_seconds=args.manual_challenge_timeout_seconds,
                     required_number=required_number,
                     allowed_title_numbers=allowed_title_numbers,
                 )
@@ -1429,7 +1591,8 @@ def main() -> None:
             print()
 
         context.close()
-        browser.close()
+        if not context_is_browser:
+            browser.close()
 
     payload: list[dict[str, Any]] = []
     values_list: list[tuple[str, int, float, float, str]] = []

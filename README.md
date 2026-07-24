@@ -47,10 +47,47 @@ Campi:
 
 ## Esecuzione
 
+Da qualsiasi cartella/terminale (comando unico consigliato):
+
+```bash
+/Users/i526499/projects/test/FPop/run_fpop.sh
+```
+
+Test rapido con meno risultati:
+
+```bash
+/Users/i526499/projects/test/FPop/run_fpop.sh --max-valid-sales 5
+```
+
+Questo launcher:
+
+- usa automaticamente `/Users/i526499/projects/test/.venv/bin/python`
+- avvia Brave in debug mode su porta 9222 se non gia attivo
+- collega lo scraper con `--browser-mode connect-cdp --use-existing-page`
+- abilita challenge manuale con timeout (`--manual-challenge-timeout-seconds 180`)
+
 Modalita browser visibile:
 
 ```bash
 python scraper.py
+```
+
+Modalita consigliata se eBay mostra challenge/login spesso (Brave gia aperto):
+
+```bash
+python scraper.py --browser-mode connect-cdp --cdp-url http://127.0.0.1:9222 --use-existing-page --manual-challenge --manual-challenge-timeout-seconds 180
+```
+
+Per avviare Brave con DevTools remoto:
+
+```bash
+/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser --remote-debugging-port=9222 --user-data-dir="$HOME/.fpop-debug-profile"
+```
+
+Alternativa in singolo processo con profilo persistente Brave:
+
+```bash
+python scraper.py --browser-mode persistent-chrome --browser-executable-path "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser" --user-data-dir .browser_profile --manual-challenge --manual-challenge-timeout-seconds 180
 ```
 
 Modalita headless:
@@ -76,6 +113,12 @@ Output JSON personalizzato:
 ```bash
 python scraper.py --output-json risultati_fpop.json
 ```
+
+Con `--manual-challenge` il flusso ora e:
+
+1. un solo prompt di conferma manuale;
+2. attesa con timeout configurabile (`--manual-challenge-timeout-seconds`);
+3. se il blocco resta attivo, retry controllato (non loop infinito).
 
 ## Logica filtro
 
