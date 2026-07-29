@@ -162,8 +162,8 @@
       "scanned_rows": 117,
       "valid_rows": 5,
       "excluded_banned": 4,
-      "excluded_bundle": 11,
-      "excluded_irrelevant": 94,
+      "excluded_bundle": 10,
+      "excluded_irrelevant": 95,
       "used_sales": [
         {
           "title": "Funko Pop! One Piece Monkey D. Luffy Wanted Poster #1459",
@@ -258,30 +258,30 @@
       "used_sales": [
         {
           "title": "Funko Pop Movies V per Vendetta #10 SDCC 2012 Esclusivo 480 Pezzi LE Voltato",
-          "price": 71.989,
-          "price_display": "71,99 €"
+          "price": 72.0456,
+          "price_display": "72,05 €"
         },
         {
           "title": "V sfusa per Vendetta Funko Pop 10",
-          "price": 57.254400000000004,
-          "price_display": "57,25 €"
+          "price": 57.31099999999999,
+          "price_display": "57,31 €"
         },
         {
           "title": "Funko Pop! Vinile: V per Vendetta #10 In Custodia Rigida - Ottime Condizioni!",
-          "price": 83.4564,
-          "price_display": "83,46 €"
+          "price": 83.513,
+          "price_display": "83,51 €"
         },
         {
           "title": "Funko Pop Vinile V per Vendetta 10",
-          "price": 95.295,
-          "price_display": "95,30 €"
+          "price": 95.3638,
+          "price_display": "95,36 €"
         }
       ],
-      "average_price": 76.9987,
-      "average_price_display": "77,00 €",
+      "average_price": 77.05834999999999,
+      "average_price_display": "77,06 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 76.9987,
-      "line_total_display": "77,00 €"
+      "line_total": 77.05834999999999,
+      "line_total_display": "77,06 €"
     },
     {
       "name": "Medusa Funko Pop",
@@ -290,58 +290,58 @@
       "query_tokens": [
         "medusa"
       ],
-      "scanned_rows": 23,
+      "scanned_rows": 24,
       "valid_rows": 8,
       "excluded_banned": 1,
-      "excluded_bundle": 0,
+      "excluded_bundle": 1,
       "excluded_irrelevant": 12,
       "used_sales": [
         {
           "title": "Funko POP! Miti MEDUSA #22 (Esclusiva Funko Shop) (NUOVO)",
-          "price": 67.2536,
-          "price_display": "67,25 €"
+          "price": 67.30019999999999,
+          "price_display": "67,30 €"
         },
         {
           "title": "Funko POP Miti! Medusa Funko Shop ESCLUSIVA #22",
-          "price": 91.2874,
-          "price_display": "91,29 €"
+          "price": 91.334,
+          "price_display": "91,33 €"
         },
         {
           "title": "Funko Pop! Miti Medusa Esclusiva Figura in Vinile #22",
-          "price": 62.3266,
-          "price_display": "62,33 €"
+          "price": 62.370999999999995,
+          "price_display": "62,37 €"
         },
         {
           "title": "Funko POP! Figurina esclusiva in vinile Myths Medusa",
-          "price": 67.0272,
-          "price_display": "67,03 €"
+          "price": 67.0616,
+          "price_display": "67,06 €"
         },
         {
           "title": "Funko POP Vinile - Miti - Medusa - #22 Funko Shop Edizione Limitata",
-          "price": 83.0896,
-          "price_display": "83,09 €"
+          "price": 83.1462,
+          "price_display": "83,15 €"
         },
         {
           "title": "Funko Myths 22 MEDUSA Funko-Shop Esclusiva Edizione Limitata POP Figure",
-          "price": 92.62639999999999,
-          "price_display": "92,63 €"
+          "price": 92.68299999999999,
+          "price_display": "92,68 €"
         },
         {
           "title": "Funko Pop! Myths Medusa #22 Figurina in vinile edizione limitata",
-          "price": 78.755,
-          "price_display": "78,75 €"
+          "price": 78.8116,
+          "price_display": "78,81 €"
         },
         {
           "title": "Funko Myths 22 MEDUSA Funko-Shop Esclusiva Edizione Limitata POP Figure",
-          "price": 79.2588,
-          "price_display": "79,26 €"
+          "price": 79.31540000000001,
+          "price_display": "79,32 €"
         }
       ],
-      "average_price": 77.703075,
-      "average_price_display": "77,70 €",
+      "average_price": 77.752875,
+      "average_price_display": "77,75 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 77.703075,
-      "line_total_display": "77,70 €"
+      "line_total": 77.752875,
+      "line_total_display": "77,75 €"
     },
     {
       "name": "Todoroki Funko Pop",
@@ -353,11 +353,11 @@
         "special",
         "edition"
       ],
-      "scanned_rows": 94,
+      "scanned_rows": 93,
       "valid_rows": 4,
       "excluded_banned": 0,
       "excluded_bundle": 1,
-      "excluded_irrelevant": 84,
+      "excluded_irrelevant": 83,
       "used_sales": [
         {
           "title": "Funko Pop! Todoroki Metallic #372 My Hero Academia Special Edition",
@@ -434,35 +434,35 @@
       "used_sales": [
         {
           "title": "Funko Pop! Vinile: One Punch Man - Terrible Tornado #721 Chase Glow In The Dark",
-          "price": 59.0994,
-          "price_display": "59,10 €"
+          "price": 59.1438,
+          "price_display": "59,14 €"
         },
         {
           "title": "Funko Pop! Vinile: One Punch Man - Terrible Tornado #721 Glow Chase",
-          "price": 50.946600000000004,
-          "price_display": "50,95 €"
+          "price": 50.980999999999995,
+          "price_display": "50,98 €"
         },
         {
           "title": "Funko Pop! Animazione #721 One Punch Man Terrible Tornado Glow Chase Figura in vinile",
-          "price": 44.3466,
-          "price_display": "44,35 €"
+          "price": 44.3688,
+          "price_display": "44,37 €"
         },
         {
           "title": "Funko Pop! One Punch Man - Terrible Tornado #721 con protezione Glow GITD Chase",
-          "price": 51.781,
-          "price_display": "51,78 €"
+          "price": 51.803200000000004,
+          "price_display": "51,80 €"
         },
         {
           "title": "Funko Pop! One Punch Man Tatsumaki Terrible Tornado #721 Chase con protezione",
-          "price": 41.7676,
-          "price_display": "41,77 €"
+          "price": 41.799800000000005,
+          "price_display": "41,80 €"
         }
       ],
-      "average_price": 49.58824,
-      "average_price_display": "49,59 €",
+      "average_price": 49.61932,
+      "average_price_display": "49,62 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 49.58824,
-      "line_total_display": "49,59 €"
+      "line_total": 49.61932,
+      "line_total_display": "49,62 €"
     },
     {
       "name": "Sasuke Uchiha Funko Pop",
@@ -473,8 +473,8 @@
         "uchiha",
         "1436"
       ],
-      "scanned_rows": 20,
-      "valid_rows": 8,
+      "scanned_rows": 19,
+      "valid_rows": 10,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 2,
@@ -488,11 +488,6 @@
           "title": "Funko Pop! - Naruto Shippuden #1436 Sasuke Uchiha figure 9cm",
           "price": 18.33,
           "price_display": "18,33 €"
-        },
-        {
-          "title": "FUNKO POP! SASUKE UCHIHA 1436 -GITD SPECIAL - NARUTO ORIGINAL VINYL",
-          "price": 18.9,
-          "price_display": "18,90 €"
         },
         {
           "title": "FUNKO POP Naruto Shippuden Sasuke Uchiha 1436",
@@ -518,13 +513,28 @@
           "title": "Funko Pop! 1436 Sasuke Uchiha",
           "price": 23.99,
           "price_display": "23,99 €"
+        },
+        {
+          "title": "Funko Pop! Animation Naruto Shippuden Sasuke Uchiha Glow Edition Figure #1436",
+          "price": 24.99,
+          "price_display": "24,99 €"
+        },
+        {
+          "title": "Funko POP! Naruto Shippuden - Sasuke Uchiha (First Susano'o) #1436",
+          "price": 25.0,
+          "price_display": "25,00 €"
+        },
+        {
+          "title": "FUNKO POP! NARUTO SHIPPUDEN -SASUKE UCHIHA -1436",
+          "price": 25.19,
+          "price_display": "25,19 €"
         }
       ],
-      "average_price": 20.151249999999997,
-      "average_price_display": "20,15 €",
+      "average_price": 21.749,
+      "average_price_display": "21,75 €",
       "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 20.151249999999997,
-      "line_total_display": "20,15 €"
+      "line_total": 21.749,
+      "line_total_display": "21,75 €"
     },
     {
       "name": "Cleaning Levi Hot Topic Funko Pop",
@@ -537,57 +547,52 @@
         "topic"
       ],
       "scanned_rows": 21,
-      "valid_rows": 8,
+      "valid_rows": 7,
       "excluded_banned": 0,
       "excluded_bundle": 2,
       "excluded_irrelevant": 9,
       "used_sales": [
         {
           "title": "Funko Pop Attack on Titan Cleaning Levi #239 Hot Topic esclusivo nuovo con scatola",
-          "price": 53.6744,
-          "price_display": "53,67 €"
+          "price": 53.72099999999999,
+          "price_display": "53,72 €"
         },
         {
           "title": "Funko Pop! Attack on Titan: Cleaning Levi #239 Hot Topic con protezione",
-          "price": 52.339,
-          "price_display": "52,34 €"
+          "price": 52.373400000000004,
+          "price_display": "52,37 €"
         },
         {
           "title": "Funko Pop! Vinile: Attack on Titan - Cleaning Levi #239 Hot Topic Exclusive",
-          "price": 52.9966,
-          "price_display": "53,00 €"
+          "price": 53.028800000000004,
+          "price_display": "53,03 €"
         },
         {
           "title": "Funko Pop! Vinile: Attack on Titan - Cleaning Levi #239 Hot Topic Exclusive",
-          "price": 47.1782,
-          "price_display": "47,18 €"
+          "price": 47.21039999999999,
+          "price_display": "47,21 €"
         },
         {
           "title": "Funko Pop! Vinile: Attack on Titan - Cleaning Levi #239 Hot Topic Exclusive",
-          "price": 62.3266,
-          "price_display": "62,33 €"
+          "price": 62.370999999999995,
+          "price_display": "62,37 €"
         },
         {
           "title": "Funko Pop! Attack On Titan Cleaning Levi #239 Hot Topic Esclusivo Voltato",
-          "price": 51.275999999999996,
-          "price_display": "51,28 €"
+          "price": 51.3104,
+          "price_display": "51,31 €"
         },
         {
           "title": "Funko Pop! Vinile: Attack on Titan - Cleaning Levi - Hot Topic (HT)... #239",
-          "price": 57.1174,
-          "price_display": "57,12 €"
-        },
-        {
-          "title": "Funko Pop! Animazione Attack on Titan Cleaning Levi #239 Hot Topic con protezione",
-          "price": 42.4356,
-          "price_display": "42,44 €"
+          "price": 57.1618,
+          "price_display": "57,16 €"
         }
       ],
-      "average_price": 52.417975,
-      "average_price_display": "52,42 €",
+      "average_price": 53.8824,
+      "average_price_display": "53,88 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 52.417975,
-      "line_total_display": "52,42 €"
+      "line_total": 53.8824,
+      "line_total_display": "53,88 €"
     },
     {
       "name": "Tanjiro Galactic Chase Toys Funko Pop",
@@ -600,58 +605,58 @@
         "toys",
         "874"
       ],
-      "scanned_rows": 18,
+      "scanned_rows": 16,
       "valid_rows": 8,
-      "excluded_banned": 1,
+      "excluded_banned": 0,
       "excluded_bundle": 1,
-      "excluded_irrelevant": 6,
+      "excluded_irrelevant": 5,
       "used_sales": [
         {
           "title": "Funko Pop! Demon Slayer: Tanjiro Kamado Galactic Toys Chase 874 con protezione",
-          "price": 53.6744,
-          "price_display": "53,67 €"
+          "price": 53.72099999999999,
+          "price_display": "53,72 €"
         },
         {
           "title": "Demon Slayer Tanjiro Kamado Funko Pop 874 Giocattoli Galattici Esclusivo GLOW CHASE",
-          "price": 46.538399999999996,
-          "price_display": "46,54 €"
+          "price": 46.5606,
+          "price_display": "46,56 €"
         },
         {
           "title": "Funko Pop! Tanjiro Kamado #874 Glow Chase Galactic Toys Esclusiva Protezione Rigida",
-          "price": 56.3852,
-          "price_display": "56,39 €"
+          "price": 56.4296,
+          "price_display": "56,43 €"
         },
         {
           "title": "Funko Pop! ADESIVO Demon Slayer - Tanjiro Kamado #874 CHASE Galactic Toys come nuovo",
-          "price": 44.952200000000005,
-          "price_display": "44,95 €"
+          "price": 44.986599999999996,
+          "price_display": "44,99 €"
         },
         {
           "title": "Funko Pop! Demon Slayer #874 Tanjiro Kamado Chase GITD Galactic Toys Esclusivo",
-          "price": 46.315200000000004,
-          "price_display": "46,32 €"
+          "price": 46.3374,
+          "price_display": "46,34 €"
         },
         {
           "title": "Funko Pop! Demon Slayer Tanjiro Kamado #874 Glow Chase come nuovo edizione speciale",
-          "price": 41.6044,
-          "price_display": "41,60 €"
+          "price": 41.6388,
+          "price_display": "41,64 €"
         },
         {
-          "title": "Funko Pop! Demon Slayer Tanjiro Kamado 874 Glow In The Dark CHASE 2021 Exclusive",
-          "price": 37.605999999999995,
-          "price_display": "37,61 €"
+          "title": "Funko Pop! Demon Slayer Tanjiro Kamado 874 Glow In The Dark CHASE 2021 esclusivo",
+          "price": 37.6404,
+          "price_display": "37,64 €"
         },
         {
-          "title": "Funko Pop! Demon Slayer Tanjiro Kamado #874 Glow Chase W/Protector NEW",
-          "price": 55.4944,
-          "price_display": "55,49 €"
+          "title": "Funko Pop! Demon Slayer Tanjiro Kamado #874 Glow Chase con protezione NUOVO",
+          "price": 55.5366,
+          "price_display": "55,54 €"
         }
       ],
-      "average_price": 47.821275,
-      "average_price_display": "47,82 €",
+      "average_price": 47.856375,
+      "average_price_display": "47,86 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 47.821275,
-      "line_total_display": "47,82 €"
+      "line_total": 47.856375,
+      "line_total_display": "47,86 €"
     },
     {
       "name": "Sasuke vs Naruto Gamestop Funko Pop",
@@ -671,61 +676,61 @@
       "excluded_irrelevant": 1,
       "used_sales": [
         {
-          "title": "Funko Pop! Moments: Naruto - Sasuke vs. Naruto - GameStop (esclusivo) #732",
-          "price": 64.7734,
-          "price_display": "64,77 €"
+          "title": "Funko Pop! Moments: Naruto - Sasuke vs. Naruto - GameStop (esclusivo) vinile #732",
+          "price": 64.0204,
+          "price_display": "64,02 €"
         },
         {
           "title": "Funko Pop! Moments: Naruto - Sasuke vs. Naruto - GameStop (esclusivo) #732",
-          "price": 70.84819999999999,
-          "price_display": "70,85 €"
+          "price": 64.8278,
+          "price_display": "64,83 €"
+        },
+        {
+          "title": "Funko Pop! Moments: Naruto - Sasuke vs. Naruto - GameStop (esclusivo) #732",
+          "price": 71.0004,
+          "price_display": "71,00 €"
         },
         {
           "title": "Funko Pop! Moments Naruto Shippuden Sasuke vs Naruto GameStop esclusivo #732",
-          "price": 68.3452,
-          "price_display": "68,35 €"
+          "price": 68.48740000000001,
+          "price_display": "68,49 €"
         },
         {
           "title": "Funko Pop! Moments: Sasuke vs. Naruto - GameStop (esclusivo) #732",
-          "price": 78.0244,
-          "price_display": "78,02 €"
+          "price": 78.091,
+          "price_display": "78,09 €"
         },
         {
           "title": "Sasuke Vs Naruto Anime Moments Funko Pop #732 Esclusivo GameStop! Con protezione",
-          "price": 81.58519999999999,
-          "price_display": "81,59 €"
+          "price": 81.7496,
+          "price_display": "81,75 €"
         },
         {
           "title": "Funko Pop! Anime Moments Sasuke Vs. Naruto #732 (Gamestop Ecc) Figura in vinile",
-          "price": 77.0014,
-          "price_display": "77,00 €"
+          "price": 77.0658,
+          "price_display": "77,07 €"
         },
         {
           "title": "Funko Pop! Moments: Naruto - Sasuke vs. Naruto - GameStop (esclusivo) #732",
-          "price": 56.3368,
-          "price_display": "56,34 €"
+          "price": 56.479,
+          "price_display": "56,48 €"
         },
         {
           "title": "Funko Pop! Moments Naruto Shippuden Sasuke vs Naruto GameStop esclusivo #732",
-          "price": 84.6836,
-          "price_display": "84,68 €"
+          "price": 84.75019999999999,
+          "price_display": "84,75 €"
         },
         {
           "title": "Funko Pop! Moments: Sasuke vs. Naruto (esclusiva GameStop) #732 FUORI SCATOLA",
-          "price": 59.393,
-          "price_display": "59,39 €"
-        },
-        {
-          "title": "Funko Pop! Sasuke vs. Naruto #732 Esclusiva GameStop",
-          "price": 75.3592,
-          "price_display": "75,36 €"
+          "price": 59.435199999999995,
+          "price_display": "59,44 €"
         }
       ],
-      "average_price": 71.63504,
-      "average_price_display": "71,64 €",
+      "average_price": 70.59067999999999,
+      "average_price_display": "70,59 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 71.63504,
-      "line_total_display": "71,64 €"
+      "line_total": 70.59067999999999,
+      "line_total_display": "70,59 €"
     },
     {
       "name": "Satoru Gojo Funko Pop",
@@ -748,41 +753,41 @@
           "price_display": "35,00 €"
         },
         {
+          "title": "Funko Pop! Jujutsu Kaisen Satoru Gojo 1226",
+          "price": 41.6388,
+          "price_display": "41,64 €"
+        },
+        {
           "title": "Funko Pop! Satoru Gojo #1226 Jujutsu Kaisen 2023 Meravigliosa Convenzione Esclusiva",
-          "price": 48.733599999999996,
-          "price_display": "48,73 €"
+          "price": 48.768,
+          "price_display": "48,77 €"
         },
         {
           "title": "Funko Pop! Animazione Jujutsu Kaisen Satoru Gojo #1226 Convenzione con Protettore",
-          "price": 58.0636,
-          "price_display": "58,06 €"
+          "price": 58.108,
+          "price_display": "58,11 €"
         },
         {
           "title": "Satoru Gojo 2023 Funko Wondercon Esclusivo Funko Pop #1226",
-          "price": 56.8966,
-          "price_display": "56,90 €"
+          "price": 56.94099999999999,
+          "price_display": "56,94 €"
         },
         {
           "title": "Funko Pop! Satoru Gojo #1226 Jujutsu Kaisen 2023 Meravigliosa Convenzione Esclusiva",
-          "price": 46.9628,
-          "price_display": "46,96 €"
+          "price": 46.995,
+          "price_display": "46,99 €"
         },
         {
           "title": "Funko POP! Animazione Satoru Gojo #1226 Nuovo con scatola 2023 Esclusiva Meravigliosa Convenzione",
-          "price": 54.309799999999996,
-          "price_display": "54,31 €"
-        },
-        {
-          "title": "Funko POP! Animazione Satoru Gojo #1226 Nuovo con scatola 2023 Esclusiva Meravigliosa Convenzione",
-          "price": 48.756,
-          "price_display": "48,76 €"
+          "price": 54.3442,
+          "price_display": "54,34 €"
         }
       ],
-      "average_price": 49.817485714285716,
-      "average_price_display": "49,82 €",
+      "average_price": 48.827857142857134,
+      "average_price_display": "48,83 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 49.817485714285716,
-      "line_total_display": "49,82 €"
+      "line_total": 48.827857142857134,
+      "line_total_display": "48,83 €"
     },
     {
       "name": "Bakugo Funko Pop",
@@ -792,63 +797,38 @@
         "bakugo",
         "803"
       ],
-      "scanned_rows": 2,
-      "valid_rows": 9,
+      "scanned_rows": 10,
+      "valid_rows": 4,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 1,
       "used_sales": [
         {
-          "title": "Funko Pop! My Hero Academia #803 Katsuki Bakugo SDCC 2020 Convenzione estiva",
-          "price": 52.339,
-          "price_display": "52,34 €"
+          "title": "Funko Pop! My Hero Academia- Katsuki Bakugo #803 - Limited Edition Exc Originale",
+          "price": 50.0,
+          "price_display": "50,00 €"
         },
         {
-          "title": "#803 My Hero Academia Katsuki Bakugo Funko Pop 2020 Convenzione estiva",
-          "price": 44.818,
-          "price_display": "44,82 €"
+          "title": "Funko Pop Katsuki Bakugo 803 SDCC 2020 Summer Convention My Hero Academia",
+          "price": 50.0,
+          "price_display": "50,00 €"
         },
         {
-          "title": "Funko Pop Katsuski Bakugo 803 Summer Convention 2020 - My Hero Academia",
-          "price": 36.6,
-          "price_display": "36,60 €"
+          "title": "Funko Pop My Hero Academia 803 Katsuki Bakugo Summer Convention 2020",
+          "price": 50.0,
+          "price_display": "50,00 €"
         },
         {
-          "title": "Funko Pop! Katsuki Bakugo #803 2020 Summer Convention Edizione Limitata Esclusiva",
-          "price": 57.6728,
-          "price_display": "57,67 €"
-        },
-        {
-          "title": "Funko Pop! Animazione My Hero Academia Katsuki Bakugo #803 2020 SDCC +protettore",
-          "price": 41.2264,
-          "price_display": "41,23 €"
-        },
-        {
-          "title": "Funko 2020 Summer Convention My Hero Academia Katsuki Bakugo Pop #803",
-          "price": 52.9044,
-          "price_display": "52,90 €"
-        },
-        {
-          "title": "Funko Pop! My Hero Academia #803 Katsuki Bakugo SDCC 2020 Convenzione estiva",
-          "price": 52.8074,
-          "price_display": "52,81 €"
-        },
-        {
-          "title": "Funko Pop! My Hero Academia #803 Katsuki Bakugo SDCC 2020 Convenzione estiva",
-          "price": 47.0052,
-          "price_display": "47,01 €"
-        },
-        {
-          "title": "Funko Pop! Vinile: My Hero Academia Katsuki Bakugo #803 SDCC 2020 esclusivo",
-          "price": 52.9844,
-          "price_display": "52,98 €"
+          "title": "Funko Pop! Animation - Katsuki Bakugo #803 - SDCC 2020 - MHA + Protector",
+          "price": 59.0,
+          "price_display": "59,00 €"
         }
       ],
-      "average_price": 48.7064,
-      "average_price_display": "48,71 €",
-      "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 97.4128,
-      "line_total_display": "97,41 €"
+      "average_price": 52.25,
+      "average_price_display": "52,25 €",
+      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
+      "line_total": 104.5,
+      "line_total_display": "104,50 €"
     },
     {
       "name": "Itachi Crows Box Lunch Funko Pop",
@@ -861,48 +841,48 @@
         "lunch",
         "1022"
       ],
-      "scanned_rows": 67,
+      "scanned_rows": 68,
       "valid_rows": 6,
-      "excluded_banned": 4,
+      "excluded_banned": 5,
       "excluded_bundle": 2,
-      "excluded_irrelevant": 53,
+      "excluded_irrelevant": 52,
       "used_sales": [
         {
-          "title": "Funko Pop! Vinile - Itachi con Corvi (#1022) (esclusiva BoxLunch)",
-          "price": 50.4482,
-          "price_display": "50,45 €"
-        },
-        {
-          "title": "Funko Pop! Naruto Shippuden | Itachi con Corvi #1022 BoxLunch con Protezione",
-          "price": 43.009,
-          "price_display": "43,01 €"
-        },
-        {
-          "title": "Funko Pop! Naruto Shippuden | Itachi con Corvi #1022 BoxLunch con Protezione",
-          "price": 40.3482,
-          "price_display": "40,35 €"
-        },
-        {
           "title": "Funko Pop! Vinile: Naruto - Itachi con Corvi - Box Lunch #1022",
-          "price": 36.8778,
-          "price_display": "36,88 €"
+          "price": 36.897800000000004,
+          "price_display": "36,90 €"
+        },
+        {
+          "title": "Funko Pop! Vinile - Itachi con Corvi (#1022) (esclusiva BoxLunch)",
+          "price": 50.4804,
+          "price_display": "50,48 €"
+        },
+        {
+          "title": "Funko Pop! Naruto Shippuden | Itachi con Corvi #1022 BoxLunch con Protezione",
+          "price": 43.043400000000005,
+          "price_display": "43,04 €"
+        },
+        {
+          "title": "Funko Pop! Naruto Shippuden | Itachi con Corvi #1022 BoxLunch con Protezione",
+          "price": 40.3704,
+          "price_display": "40,37 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden | Itachi con Corvi #1022 BoxLunch con Protezione 2",
-          "price": 47.017399999999995,
-          "price_display": "47,02 €"
+          "price": 47.0518,
+          "price_display": "47,05 €"
         },
         {
           "title": "Naruto Shippudden Itachi con Corvi Funko POP BoxLunch esclusivo",
-          "price": 39.489,
-          "price_display": "39,49 €"
+          "price": 39.5334,
+          "price_display": "39,53 €"
         }
       ],
-      "average_price": 42.86493333333333,
-      "average_price_display": "42,86 €",
+      "average_price": 42.8962,
+      "average_price_display": "42,90 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 42.86493333333333,
-      "line_total_display": "42,86 €"
+      "line_total": 42.8962,
+      "line_total_display": "42,90 €"
     },
     {
       "name": "Mihawk Funko Pop",
@@ -912,8 +892,8 @@
         "mihawk",
         "1521"
       ],
-      "scanned_rows": 7,
-      "valid_rows": 6,
+      "scanned_rows": 6,
+      "valid_rows": 5,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 0,
@@ -942,18 +922,13 @@
           "title": "Funko Pop One Piece Dracule Mihawk 1521 Funko Exclusive",
           "price": 29.0,
           "price_display": "29,00 €"
-        },
-        {
-          "title": "Funko Pop One Piece Dracule Mihawk 1521 Funko Exclusive",
-          "price": 26.0,
-          "price_display": "26,00 €"
         }
       ],
-      "average_price": 28.331666666666667,
-      "average_price_display": "28,33 €",
+      "average_price": 28.798000000000002,
+      "average_price_display": "28,80 €",
       "note": null,
-      "line_total": 28.331666666666667,
-      "line_total_display": "28,33 €"
+      "line_total": 28.798000000000002,
+      "line_total_display": "28,80 €"
     },
     {
       "name": "Tanjiro & Urokodaki Funko Pop",
@@ -964,37 +939,32 @@
         "urokodaki"
       ],
       "scanned_rows": 60,
-      "valid_rows": 4,
-      "excluded_banned": 2,
-      "excluded_bundle": 4,
-      "excluded_irrelevant": 49,
+      "valid_rows": 3,
+      "excluded_banned": 1,
+      "excluded_bundle": 8,
+      "excluded_irrelevant": 45,
       "used_sales": [
         {
-          "title": "Funko Pop! Collectible Figures Tanjiro Kamado and Sakonji Urokodaki 2-Pack",
-          "price": 66.6668,
-          "price_display": "66,67 €"
+          "title": "Funko Pop! Vinile Tanjiro Kamado & Sakonji Urokodaki #2",
+          "price": 43.229,
+          "price_display": "43,23 €"
         },
         {
-          "title": "Funko Pop! Demon Slayer: Tanjiro Kamado & Sakonji Urokodaki - Confezione da 2 SDCC",
-          "price": 66.809,
-          "price_display": "66,81 €"
+          "title": "Funko Animation Demon Slayer Tanjiro Kamado & Sakonji Urokodaki Confezione da 2 Pops",
+          "price": 46.559,
+          "price_display": "46,56 €"
         },
         {
-          "title": "Funko Pop! Demon Slayer 2 Tanjiro Kamado and Sakonji Urokodaki 2 Pack",
-          "price": 58.026799999999994,
-          "price_display": "58,03 €"
-        },
-        {
-          "title": "Funko Animation Demon Slayer Tanjiro Kamado & Sakonji Urokodaki 2 Pack Pops",
-          "price": 46.5268,
-          "price_display": "46,53 €"
+          "title": "Funko Pop! Demon Slayer 2 Tanjiro Kamado e Sakonji Urokodaki confezione da 2",
+          "price": 58.059,
+          "price_display": "58,06 €"
         }
       ],
-      "average_price": 59.507349999999995,
-      "average_price_display": "59,51 €",
+      "average_price": 49.28233333333333,
+      "average_price_display": "49,28 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 59.507349999999995,
-      "line_total_display": "59,51 €"
+      "line_total": 49.28233333333333,
+      "line_total_display": "49,28 €"
     },
     {
       "name": "Minato Funko Pop",
@@ -1085,20 +1055,20 @@
       "used_sales": [
         {
           "title": "Funko POP! Adesivo esclusivo ITACHI #578 Naruto Shippuden AE - Nuovo",
-          "price": 40.1494,
-          "price_display": "40,15 €"
+          "price": 40.1716,
+          "price_display": "40,17 €"
         },
         {
           "title": "Itachi Funko Pop 578 Naruto Shippuden Esclusiva AE",
-          "price": 33.837599999999995,
-          "price_display": "33,84 €"
+          "price": 33.8598,
+          "price_display": "33,86 €"
         }
       ],
-      "average_price": 36.9935,
-      "average_price_display": "36,99 €",
+      "average_price": 37.015699999999995,
+      "average_price_display": "37,02 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 36.9935,
-      "line_total_display": "36,99 €"
+      "line_total": 37.015699999999995,
+      "line_total_display": "37,02 €"
     },
     {
       "name": "Kurama Hot Topic Funko Pop",
@@ -1109,38 +1079,53 @@
         "hot",
         "topic"
       ],
-      "scanned_rows": 59,
-      "valid_rows": 4,
-      "excluded_banned": 0,
-      "excluded_bundle": 3,
-      "excluded_irrelevant": 51,
+      "scanned_rows": 117,
+      "valid_rows": 7,
+      "excluded_banned": 1,
+      "excluded_bundle": 6,
+      "excluded_irrelevant": 101,
       "used_sales": [
         {
-          "title": "Funko Pop! Naruto Shippuden Kurama Floccato Hot Topic Esclusivo Leggi",
-          "price": 55.4982,
-          "price_display": "55,50 €"
+          "title": "Funko Pop Animation Naruto Shippuden Kurama (Majestic Attire:Susano'o) Hot Topic",
+          "price": 65.0,
+          "price_display": "65,00 €"
         },
         {
-          "title": "Naruto Shippuden Kurama Majestic Attire Susano’o Funko Pop #725 Hot Topic Escl.",
-          "price": 77.5782,
-          "price_display": "77,58 €"
+          "title": "Funko Pop!Naruto Shippuden KURAMA MAJESTIC ATTIRE SUSANO'O #725 Hot Topic!",
+          "price": 69.0,
+          "price_display": "69,00 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden - #725 Kurama Majestic Attire Susano'o Hot Topic",
-          "price": 72.70439999999999,
-          "price_display": "72,70 €"
+          "price": 66.591,
+          "price_display": "66,59 €"
         },
         {
-          "title": "Funko Pop! Kurama Majestic Attire #725 Hot Topic Exclusive con protezione",
-          "price": 72.7028,
-          "price_display": "72,70 €"
+          "title": "FUNKO POP NARUTO SHIPPUDEN Kurama (Majestic Attire: Susano'o) # 725 HOT TOPIC",
+          "price": 80.959,
+          "price_display": "80,96 €"
+        },
+        {
+          "title": "Funko Pop! Naruto Shippuden Kurama Floccato Hot Topic Esclusivo Leggi",
+          "price": 55.630399999999995,
+          "price_display": "55,63 €"
+        },
+        {
+          "title": "Funko Pop - Naruto: Kurama (Majestic Attire: Susano) - #725 (Hot Topic)",
+          "price": 76.4804,
+          "price_display": "76,48 €"
+        },
+        {
+          "title": "Kurama (Majestic Attire: Susano'o) Funko Pop! Naruto Shippuden #725 Hot Topic",
+          "price": 55.2432,
+          "price_display": "55,24 €"
         }
       ],
-      "average_price": 69.62089999999999,
-      "average_price_display": "69,62 €",
-      "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 69.62089999999999,
-      "line_total_display": "69,62 €"
+      "average_price": 66.98628571428571,
+      "average_price_display": "66,99 €",
+      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
+      "line_total": 66.98628571428571,
+      "line_total_display": "66,99 €"
     },
     {
       "name": "Rock Lee Funko Pop",
@@ -1155,7 +1140,7 @@
       "valid_rows": 4,
       "excluded_banned": 0,
       "excluded_bundle": 1,
-      "excluded_irrelevant": 0,
+      "excluded_irrelevant": 1,
       "used_sales": [
         {
           "title": "FUNKO POP ROCK LEE N°739 NARUTO SHIPPUDEN SPECIAL EDITION NUOVO MAI APERTO.",
@@ -1194,37 +1179,32 @@
         "1318"
       ],
       "scanned_rows": 61,
-      "valid_rows": 4,
-      "excluded_banned": 2,
+      "valid_rows": 3,
+      "excluded_banned": 3,
       "excluded_bundle": 0,
       "excluded_irrelevant": 53,
       "used_sales": [
         {
           "title": "Funko Pop! Vinile: Naruto Shippuden - Naruto Uzumaki con Rasengan (Bagliore) #1318",
-          "price": 24.2676,
-          "price_display": "24,27 €"
+          "price": 24.2898,
+          "price_display": "24,29 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Naruto Uzumaki con Rasengan (Bagliore) - Funko...",
-          "price": 28.642,
-          "price_display": "28,64 €"
+          "price": 28.6642,
+          "price_display": "28,66 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden - Jiraiya con protezione Rasengan Glow e Pop",
-          "price": 27.611,
-          "price_display": "27,61 €"
-        },
-        {
-          "title": "Funko Pop! Vinyl: Naruto - Naruto Uzumaki with Rasengan (Glow) - Funko...",
-          "price": 20.0324,
-          "price_display": "20,03 €"
+          "price": 27.6332,
+          "price_display": "27,63 €"
         }
       ],
-      "average_price": 25.13825,
-      "average_price_display": "25,14 €",
+      "average_price": 26.862399999999997,
+      "average_price_display": "26,86 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 25.13825,
-      "line_total_display": "25,14 €"
+      "line_total": 26.862399999999997,
+      "line_total_display": "26,86 €"
     },
     {
       "name": "Kurapika FYE Funko Pop",
@@ -1243,45 +1223,45 @@
       "used_sales": [
         {
           "title": "Funko Pop! Hunter X Hunter Kurapika con occhi scarlatti #1135 esclusiva FYE",
-          "price": 30.9328,
-          "price_display": "30,93 €"
+          "price": 30.955,
+          "price_display": "30,95 €"
         },
         {
           "title": "FUNKO POP ANIMATION NUOVO #1135 KURAPIKA HUNTER-HUNTER FYE ESCLUSIVO SPEDIZIONE GRATUITA",
-          "price": 28.2538,
-          "price_display": "28,25 €"
+          "price": 28.2882,
+          "price_display": "28,29 €"
         },
         {
           "title": "FUNKO POP ANIMATION NUOVO #1135 KURAPIKA HUNTER-HUNTER FYE ESCLUSIVO SPEDIZIONE GRATUITA",
-          "price": 30.9938,
-          "price_display": "30,99 €"
+          "price": 31.0282,
+          "price_display": "31,03 €"
         },
         {
           "title": "Funko Pop! Animazione Hunter x Hunter Kurapika FYE Esclusiva Figura in Vinile 1135",
-          "price": 27.011000000000003,
-          "price_display": "27,01 €"
+          "price": 27.021,
+          "price_display": "27,02 €"
         },
         {
           "title": "Funko Pop! Vinile: Hunter x Hunter - Kurapika - FYE #1135 🚢🐊🚢",
-          "price": 23.3316,
-          "price_display": "23,33 €"
+          "price": 23.3538,
+          "price_display": "23,35 €"
         },
         {
           "title": "Funko Pop! Hunter x Hunter - Kurapika Occhi Scarlatti con Catena #1135 FYE Ecc",
-          "price": 38.123,
-          "price_display": "38,12 €"
+          "price": 38.1552,
+          "price_display": "38,16 €"
         },
         {
           "title": "Funko Pop! Hunter x Hunter Kurapika #1135 FYE Exclusive 2022 - Collector's Item",
-          "price": 38.1106,
-          "price_display": "38,11 €"
+          "price": 38.330600000000004,
+          "price_display": "38,33 €"
         }
       ],
-      "average_price": 30.96522857142857,
-      "average_price_display": "30,97 €",
+      "average_price": 31.018857142857144,
+      "average_price_display": "31,02 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 30.96522857142857,
-      "line_total_display": "30,97 €"
+      "line_total": 31.018857142857144,
+      "line_total_display": "31,02 €"
     },
     {
       "name": "Phoenix Ikki Funko Pop",
@@ -1344,47 +1324,42 @@
         "636"
       ],
       "scanned_rows": 12,
-      "valid_rows": 6,
+      "valid_rows": 5,
       "excluded_banned": 1,
       "excluded_bundle": 0,
       "excluded_irrelevant": 1,
       "used_sales": [
         {
           "title": "Funko Pop! My Hero Academia - Hero Killer Stain #636 - GameStop NYCC 2019 NUOVO",
-          "price": 37.6182,
-          "price_display": "37,62 €"
+          "price": 37.6404,
+          "price_display": "37,64 €"
         },
         {
           "title": "Funko Pop! My Hero Academia Hero Killer Stain #636 2019 NYCC con protezione",
-          "price": 42.3168,
-          "price_display": "42,32 €"
+          "price": 42.339,
+          "price_display": "42,34 €"
         },
         {
           "title": "Funko Pop! Adesivo esclusivo My Hero Academia Hero Killer Stain #636 2019 NYCC",
-          "price": 40.548,
-          "price_display": "40,55 €"
+          "price": 40.580200000000005,
+          "price_display": "40,58 €"
         },
         {
           "title": "Funko Pop! 636 Hero Killer Stain 2019 Fall Con Esclusivo Anime My Hero Academia",
-          "price": 40.336,
-          "price_display": "40,34 €"
+          "price": 40.3704,
+          "price_display": "40,37 €"
         },
         {
           "title": "Funko Pop! Animazione My Hero Academia Hero Killer Stain Fall Convention #636",
-          "price": 37.230599999999995,
-          "price_display": "37,23 €"
-        },
-        {
-          "title": "Funko Pop! My Hero Academia #636: - Hero Killer Stain - NYCC 2019 come nuovo",
-          "price": 33.5976,
-          "price_display": "33,60 €"
+          "price": 37.25279999999999,
+          "price_display": "37,25 €"
         }
       ],
-      "average_price": 38.607866666666666,
-      "average_price_display": "38,61 €",
+      "average_price": 39.636559999999996,
+      "average_price_display": "39,64 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 77.21573333333333,
-      "line_total_display": "77,22 €"
+      "line_total": 79.27311999999999,
+      "line_total_display": "79,27 €"
     },
     {
       "name": "Pain Chalice Funko Pop",
@@ -1397,31 +1372,31 @@
       ],
       "scanned_rows": 119,
       "valid_rows": 3,
-      "excluded_banned": 1,
+      "excluded_banned": 2,
       "excluded_bundle": 20,
-      "excluded_irrelevant": 94,
+      "excluded_irrelevant": 93,
       "used_sales": [
         {
           "title": "Funko Pop! Animazione: Naruto Pain Almighty Push 944 Glow Chalice Figura in vinile",
-          "price": 31.8768,
-          "price_display": "31,88 €"
+          "price": 30.583600000000004,
+          "price_display": "30,58 €"
         },
         {
           "title": "Funko Pop! Animazione: Naruto Pain Almighty Push 944 Glow Chalice Figura in vinile",
-          "price": 34.199799999999996,
-          "price_display": "34,20 €"
+          "price": 34.2098,
+          "price_display": "34,21 €"
         },
         {
           "title": "Funko Pop! Naruto Pain Almighty Push #944 Chalice Collectibles Glow Exclusive",
-          "price": 44.224999999999994,
-          "price_display": "44,22 €"
+          "price": 44.405,
+          "price_display": "44,41 €"
         }
       ],
-      "average_price": 36.767199999999995,
-      "average_price_display": "36,77 €",
+      "average_price": 36.39946666666667,
+      "average_price_display": "36,40 €",
       "note": "Prezzi da annunci attivi (nessuna vendita recente trovata).",
-      "line_total": 36.767199999999995,
-      "line_total_display": "36,77 €"
+      "line_total": 36.39946666666667,
+      "line_total_display": "36,40 €"
     },
     {
       "name": "Zero Funko Pop",
@@ -1578,12 +1553,17 @@
         "potter",
         "01"
       ],
-      "scanned_rows": 60,
+      "scanned_rows": 56,
       "valid_rows": 10,
       "excluded_banned": 0,
       "excluded_bundle": 2,
-      "excluded_irrelevant": 1,
+      "excluded_irrelevant": 2,
       "used_sales": [
+        {
+          "title": "FUNKO POP Harry Potter Harry 01",
+          "price": 19.2,
+          "price_display": "19,20 €"
+        },
         {
           "title": "FUNKO POP - ONE PIECE - HARRY POTTER - STAR WARS - DISNEY - MARVEL - POKEMON",
           "price": 19.9,
@@ -1625,21 +1605,16 @@
           "price_display": "20,00 €"
         },
         {
-          "title": "Gadget - Harry Potter: Funko Pop! - Harry Potter (Vinyl Figure 01) -I- Funko",
-          "price": 20.19,
-          "price_display": "20,19 €"
-        },
-        {
           "title": "FUNKO POP ! HARRY POTTER - (01) HARRY POTTER FIGURE VINYL 9CM MAGO HOGWARTS",
           "price": 20.28,
           "price_display": "20,28 €"
         }
       ],
-      "average_price": 20.006,
-      "average_price_display": "20,01 €",
+      "average_price": 19.907,
+      "average_price_display": "19,91 €",
       "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 20.006,
-      "line_total_display": "20,01 €"
+      "line_total": 19.907,
+      "line_total_display": "19,91 €"
     },
     {
       "name": "Marco Funko Pop",
@@ -1649,8 +1624,8 @@
         "marco",
         "1477"
       ],
-      "scanned_rows": 3,
-      "valid_rows": 2,
+      "scanned_rows": 1,
+      "valid_rows": 9,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 0,
@@ -1661,16 +1636,51 @@
           "price_display": "30,00 €"
         },
         {
-          "title": "Funko Pop! One Piece #1477 Marco Funko Shop Exclusive",
-          "price": 30.0,
-          "price_display": "30,00 €"
+          "title": "Funko Pop! Animazione One Piece Marco #1477 Funko Edizione Speciale Con Protezione Pop",
+          "price": 31.0282,
+          "price_display": "31,03 €"
+        },
+        {
+          "title": "One Piece Marco Funko Pop Animazione #1477",
+          "price": 22.811999999999998,
+          "price_display": "22,81 €"
+        },
+        {
+          "title": "Funko Pop pezzo unico Marco #1477 + protezione omaggio",
+          "price": 17.9706,
+          "price_display": "17,97 €"
+        },
+        {
+          "title": "Funko Pop! Vinile: One Piece - Marco - Funko (esclusivo) #1477",
+          "price": 24.912,
+          "price_display": "24,91 €"
+        },
+        {
+          "title": "Funko Pop! Vinile: One Piece - Marco - Funko (esclusivo) #1477",
+          "price": 23.8084,
+          "price_display": "23,81 €"
+        },
+        {
+          "title": "Funko Pop! Vinile: One Piece - Marco - Funko (esclusivo) #1477",
+          "price": 28.1906,
+          "price_display": "28,19 €"
+        },
+        {
+          "title": "Funko Pop! Vinile: One Piece - Marco - Funko Web (FW) (esclusivo) #1477",
+          "price": 22.714799999999997,
+          "price_display": "22,71 €"
+        },
+        {
+          "title": "Funko Pop! Animation - One Piece - Marco #1477 Funko Exclusive",
+          "price": 23.8388,
+          "price_display": "23,84 €"
         }
       ],
-      "average_price": 30.0,
-      "average_price_display": "30,00 €",
-      "note": null,
-      "line_total": 30.0,
-      "line_total_display": "30,00 €"
+      "average_price": 25.0306,
+      "average_price_display": "25,03 €",
+      "note": "Prezzi da venduti: merge di locale + internazionali.",
+      "line_total": 25.0306,
+      "line_total_display": "25,03 €"
     },
     {
       "name": "Kurama Funko Pop",
@@ -1680,48 +1690,48 @@
         "kurama",
         "73"
       ],
-      "scanned_rows": 14,
+      "scanned_rows": 13,
       "valid_rows": 6,
       "excluded_banned": 0,
       "excluded_bundle": 1,
-      "excluded_irrelevant": 3,
+      "excluded_irrelevant": 2,
       "used_sales": [
         {
           "title": "Funko Pop! Vinile Super 6 pollici: Naruto Shippuden - Kurama (6 pollici) #73",
-          "price": 53.458400000000005,
-          "price_display": "53,46 €"
-        },
-        {
-          "title": "Funko Pop Naruto Shippuden Kurama #73 Glow In Dark 6\" super sciolto autentico",
-          "price": 56.8436,
-          "price_display": "56,84 €"
-        },
-        {
-          "title": "Funko Pop! Naruto Shippuden 73 - Kurama (Floccato) - Esclusiva Hot Topic",
-          "price": 46.446,
-          "price_display": "46,45 €"
-        },
-        {
-          "title": "Funko Pop! Naruto Shippuden 73 - Kurama (Floccato) - Esclusiva Hot Topic",
-          "price": 51.37140000000001,
-          "price_display": "51,37 €"
-        },
-        {
-          "title": "Funko Pop! Naruto Shippuden Kurama #73 esclusivo tema caldo vinile 6 pollici (RARO)",
-          "price": 53.497600000000006,
+          "price": 53.5006,
           "price_display": "53,50 €"
         },
         {
-          "title": "Funko Pop! Animazione Shonen Jump Naruto Shippuden 73 Kurama Figura in vinile",
-          "price": 44.1668,
-          "price_display": "44,17 €"
+          "title": "Funko Pop Naruto Shippuden Kurama #73 Glow In Dark 6\" super sciolto autentico",
+          "price": 56.878,
+          "price_display": "56,88 €"
+        },
+        {
+          "title": "Funko Pop! Naruto Shippuden 73 - Kurama (Floccato) - Esclusiva Hot Topic",
+          "price": 46.4782,
+          "price_display": "46,48 €"
+        },
+        {
+          "title": "Funko Pop! Naruto Shippuden 73 - Kurama (Floccato) - Esclusiva Hot Topic",
+          "price": 51.415800000000004,
+          "price_display": "51,42 €"
+        },
+        {
+          "title": "Funko Pop! Naruto Shippuden Kurama #73 esclusivo tema caldo vinile 6 pollici (RARO)",
+          "price": 53.52760000000001,
+          "price_display": "53,53 €"
+        },
+        {
+          "title": "Funko Pop! Vinile Super 6 pollici: Naruto - Kurama (6 pollici) #73",
+          "price": 64.36439999999999,
+          "price_display": "64,36 €"
         }
       ],
-      "average_price": 50.96396666666667,
-      "average_price_display": "50,96 €",
+      "average_price": 54.36076666666667,
+      "average_price_display": "54,36 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 50.96396666666667,
-      "line_total_display": "50,96 €"
+      "line_total": 54.36076666666667,
+      "line_total_display": "54,36 €"
     },
     {
       "name": "Naruto Six Path Funko Pop",
@@ -1772,28 +1782,63 @@
         "lunch",
         "823"
       ],
-      "scanned_rows": 60,
-      "valid_rows": 2,
-      "excluded_banned": 1,
-      "excluded_bundle": 2,
-      "excluded_irrelevant": 53,
+      "scanned_rows": 66,
+      "valid_rows": 9,
+      "excluded_banned": 2,
+      "excluded_bundle": 1,
+      "excluded_irrelevant": 51,
       "used_sales": [
         {
-          "title": "Funko Pop Naruto Uzumaki Eating Noodles #823 BoxLunch Exclusive Naruto Shippuden",
-          "price": 40.275,
-          "price_display": "40,27 €"
+          "title": "Funko Pop! Vinile: Naruto - Naruto Uzumaki Eating Noodles - BoxLunch #823",
+          "price": 36.5398,
+          "price_display": "36,54 €"
         },
         {
-          "title": "Funko Pop! Vinyl: Naruto - Naruto Uzumaki - Box Lunch (Exclusive) #823",
-          "price": 27.0198,
-          "price_display": "27,02 €"
+          "title": "Naruto Uzumaki #823 BoxLunch esclusivo Naruto Eating Noodles Funko POP!",
+          "price": 37.7406,
+          "price_display": "37,74 €"
+        },
+        {
+          "title": "Funko Pop Naruto Uzumaki Eating Noodles 823 Boxlunch Naruto",
+          "price": 40.0,
+          "price_display": "40,00 €"
+        },
+        {
+          "title": "NARUTO UZUMAKI FUNKO POP BOXLUNCH ESCLUSIVO MANGIARE RAMEN NOODLES SHIPPUDEN 823",
+          "price": 40.3704,
+          "price_display": "40,37 €"
+        },
+        {
+          "title": "NARUTO UZUMAKI FUNKO POP BOXLUNCH ESCLUSIVO MANGIARE RAMEN NOODLES SHIPPUDEN 823 B",
+          "price": 40.3704,
+          "price_display": "40,37 €"
+        },
+        {
+          "title": "Funko Pop Anime Naruto Uzumaki Eating Noodles BoxLunch 823 Manga Figura in Vinile",
+          "price": 41.9174,
+          "price_display": "41,92 €"
+        },
+        {
+          "title": "Funko Pop Naruto Uzumaki (Eating Noodles) 823 Boxlunch Naruto",
+          "price": 49.9,
+          "price_display": "49,90 €"
+        },
+        {
+          "title": "NARUTO UZUMAKI (NOODLES - BOX LUNCH) - NARUTO SHIPPUDEN - FUNKO POP! #823",
+          "price": 49.99,
+          "price_display": "49,99 €"
+        },
+        {
+          "title": "Funko Pop Naruto Uzumaki Box Lunch #823",
+          "price": 50.0,
+          "price_display": "50,00 €"
         }
       ],
-      "average_price": 33.6474,
-      "average_price_display": "33,65 €",
-      "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 33.6474,
-      "line_total_display": "33,65 €"
+      "average_price": 42.98095555555555,
+      "average_price_display": "42,98 €",
+      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
+      "line_total": 42.98095555555555,
+      "line_total_display": "42,98 €"
     },
     {
       "name": "Dragon Shiryu Funko Pop",
@@ -1822,8 +1867,8 @@
         },
         {
           "title": "Funko Pop! Vinile: Saint Seiya - Dragon Shiryu #807",
-          "price": 25.553,
-          "price_display": "25,55 €"
+          "price": 25.5752,
+          "price_display": "25,58 €"
         },
         {
           "title": "Funko POP! Saint Seiya - Dragon Shiryu #807",
@@ -1832,8 +1877,8 @@
         },
         {
           "title": "Funko POP! Animation Saint Seiya SIRIO IL DRAGONE 807 Vinyl Figure",
-          "price": 26.717999999999996,
-          "price_display": "26,72 €"
+          "price": 25.388199999999998,
+          "price_display": "25,39 €"
         },
         {
           "title": "Dragon Shiryu 807 Funko POP Saint Seiya Knights of the Zodiac",
@@ -1842,20 +1887,20 @@
         },
         {
           "title": "Funko POP! Animazione Saint Seiya DRAGON SHIRYU 807",
-          "price": 19.6242,
-          "price_display": "19,62 €"
+          "price": 19.6342,
+          "price_display": "19,63 €"
         },
         {
           "title": "SAINT SEIYA ZODIAQUE Figurine DRAGON SHIRYU N° 807 POP FUNKO DISPO",
-          "price": 26.1578,
-          "price_display": "26,16 €"
+          "price": 24.998800000000003,
+          "price_display": "25,00 €"
         }
       ],
-      "average_price": 24.9951,
-      "average_price_display": "25,00 €",
+      "average_price": 24.688025,
+      "average_price_display": "24,69 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 24.9951,
-      "line_total_display": "25,00 €"
+      "line_total": 24.688025,
+      "line_total_display": "24,69 €"
     },
     {
       "name": "Vegeta Super Saiyan PX Funko Pop",
@@ -1869,42 +1914,47 @@
         "709"
       ],
       "scanned_rows": 1,
-      "valid_rows": 5,
+      "valid_rows": 6,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 0,
       "used_sales": [
         {
           "title": "Funko Pop Dragon Ball Z SUPER SAIYAN 2 VEGETA 709 Figura in vinile - Esclusiva PX",
-          "price": 27.9938,
-          "price_display": "27,99 €"
-        },
-        {
-          "title": "Funko Pop! Dragon Ball Z Super Saiyan 2 Vegeta PX Exclusive #709",
-          "price": 24.0724,
-          "price_display": "24,07 €"
-        },
-        {
-          "title": "Dragon Ball Z Super Saiyan 2 Vegeta Funko Pop 709 PX Anteprima Glow Chase",
-          "price": 32.1152,
+          "price": 32.1246,
           "price_display": "32,12 €"
         },
         {
-          "title": "Funko Pop! Animazione Dragon Ball Z Super Saiyan 2 Vegeta #709 PX Glow Chase",
-          "price": 29.619600000000002,
-          "price_display": "29,62 €"
+          "title": "Funko Pop Dragon Ball Z SUPER SAIYAN 2 VEGETA 709 Figura in vinile - Esclusiva PX",
+          "price": 28.013800000000003,
+          "price_display": "28,01 €"
+        },
+        {
+          "title": "Funko Pop! Dragon Ball Z Super Saiyan 2 Vegeta PX Exclusive #709",
+          "price": 24.0946,
+          "price_display": "24,09 €"
+        },
+        {
+          "title": "Dragon Ball Z Super Saiyan 2 Vegeta Funko Pop 709 PX Anteprima Glow Chase",
+          "price": 32.147400000000005,
+          "price_display": "32,15 €"
         },
         {
           "title": "Funko Pop! Animazione Dragon Ball Z Super Saiyan 2 Vegeta #709 PX Glow Chase",
-          "price": 37.7398,
-          "price_display": "37,74 €"
+          "price": 29.6418,
+          "price_display": "29,64 €"
+        },
+        {
+          "title": "Funko Pop! Animazione Dragon Ball Z Super Saiyan 2 Vegeta #709 PX Glow Chase",
+          "price": 37.7598,
+          "price_display": "37,76 €"
         }
       ],
-      "average_price": 30.308159999999997,
-      "average_price_display": "30,31 €",
+      "average_price": 30.630333333333336,
+      "average_price_display": "30,63 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 30.308159999999997,
-      "line_total_display": "30,31 €"
+      "line_total": 30.630333333333336,
+      "line_total_display": "30,63 €"
     },
     {
       "name": "Naruto Six Path Hot Topic GITD Funko Pop",
@@ -1919,58 +1969,48 @@
         "gitd",
         "186"
       ],
-      "scanned_rows": 34,
-      "valid_rows": 8,
-      "excluded_banned": 3,
-      "excluded_bundle": 3,
-      "excluded_irrelevant": 18,
+      "scanned_rows": 60,
+      "valid_rows": 6,
+      "excluded_banned": 4,
+      "excluded_bundle": 7,
+      "excluded_irrelevant": 41,
       "used_sales": [
         {
           "title": "Naruto Shippuden Funko Pop Naruto (Six Path) Hot Topic GITD Esclusivo Giallo",
-          "price": 36.7678,
-          "price_display": "36,77 €"
+          "price": 36.787800000000004,
+          "price_display": "36,79 €"
         },
         {
           "title": "Funko Pop Naruto (six Path) 186 Hot Topic esclusivo Glow In The Dark con Protecto",
-          "price": 31.4196,
-          "price_display": "31,42 €"
-        },
-        {
-          "title": "Funko Pop! Naruto (Six Path) Hot Topic Exclusive #186 con protezione morbida",
-          "price": 37.019999999999996,
-          "price_display": "37,02 €"
+          "price": 31.4518,
+          "price_display": "31,45 €"
         },
         {
           "title": "Funko Pop Naruto (six Path) 186 Hot Topic esclusivo Glow In The Dark con Protecto",
-          "price": 25.933799999999998,
-          "price_display": "25,93 €"
+          "price": 25.956,
+          "price_display": "25,96 €"
         },
         {
           "title": "Funko Pop! Naruto (Six Path) Hot Topic Exclusive #186 con protezione morbida",
-          "price": 33.679,
-          "price_display": "33,68 €"
+          "price": 37.0422,
+          "price_display": "37,04 €"
+        },
+        {
+          "title": "Funko Pop! Naruto (Six Path) Hot Topic Exclusive #186 con protezione morbida",
+          "price": 33.7012,
+          "price_display": "33,70 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden Naruto (Sei Sentieri) #186 Esclusiva Hot Topic",
-          "price": 25.650000000000002,
-          "price_display": "25,65 €"
-        },
-        {
-          "title": "Funko Pop Naruto Uzumaki (Six Path) Glow Hot Topic Exclusive #186",
-          "price": 34.1854,
-          "price_display": "34,19 €"
-        },
-        {
-          "title": "Funko Pop Naruto Shippuden Naruto Six Path #186 Hot Topic Exclusive Brand New!",
-          "price": 28.6338,
-          "price_display": "28,63 €"
+          "price": 25.6722,
+          "price_display": "25,67 €"
         }
       ],
-      "average_price": 31.661175,
-      "average_price_display": "31,66 €",
+      "average_price": 31.768533333333334,
+      "average_price_display": "31,77 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 31.661175,
-      "line_total_display": "31,66 €"
+      "line_total": 31.768533333333334,
+      "line_total_display": "31,77 €"
     },
     {
       "name": "Levi Funko Pop",
@@ -1981,7 +2021,7 @@
         "235"
       ],
       "scanned_rows": 1,
-      "valid_rows": 3,
+      "valid_rows": 5,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 0,
@@ -1992,21 +2032,31 @@
           "price_display": "27,11 €"
         },
         {
+          "title": "Levi #235 Funko Pop! Animation - Attack on Titan - Vinyl Figure Vaulted",
+          "price": 22.8628,
+          "price_display": "22,86 €"
+        },
+        {
           "title": "Attack On Titan Levi Ackerman Funko Pop #235 Animazione Figura in Vinile con INSERTO!!️",
-          "price": 32.62520000000001,
-          "price_display": "32,63 €"
+          "price": 32.6574,
+          "price_display": "32,66 €"
+        },
+        {
+          "title": "Funko Pop! Vinile: Attack on Titan - Levi Ackerman #235",
+          "price": 22.590799999999998,
+          "price_display": "22,59 €"
         },
         {
           "title": "Levi Funko Pop! 235 Attack on Titan Animazione AOT Anime in NUOVO Protettore!",
-          "price": 27.826200000000004,
-          "price_display": "27,83 €"
+          "price": 27.858400000000003,
+          "price_display": "27,86 €"
         }
       ],
-      "average_price": 29.187133333333335,
-      "average_price_display": "29,19 €",
+      "average_price": 26.615879999999997,
+      "average_price_display": "26,62 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 29.187133333333335,
-      "line_total_display": "29,19 €"
+      "line_total": 26.615879999999997,
+      "line_total_display": "26,62 €"
     },
     {
       "name": "Meruem Chalice Funko Pop",
@@ -2017,10 +2067,10 @@
         "chalice",
         "1105"
       ],
-      "scanned_rows": 109,
+      "scanned_rows": 111,
       "valid_rows": 2,
       "excluded_banned": 3,
-      "excluded_bundle": 43,
+      "excluded_bundle": 41,
       "excluded_irrelevant": 67,
       "used_sales": [
         {
@@ -2055,64 +2105,64 @@
       "valid_rows": 10,
       "excluded_banned": 2,
       "excluded_bundle": 3,
-      "excluded_irrelevant": 43,
+      "excluded_irrelevant": 44,
       "used_sales": [
         {
+          "title": "Funko POP! Boruto Naruto (HOKAGE) Figura in Vinile AAA Esclusiva Anime #724",
+          "price": 30.967200000000002,
+          "price_display": "30,97 €"
+        },
+        {
           "title": "Funko Pop! Boruto - Naruto (Hokage) #724 Esclusiva anime AAA",
-          "price": 33.551,
-          "price_display": "33,55 €"
-        },
-        {
-          "title": "Funko Pop Boruto Naruto Hokage 724 AAA Anime Esclusiva Figura in Vinile - NUOVO",
-          "price": 33.6058,
-          "price_display": "33,61 €"
-        },
-        {
-          "title": "Funko POP! BORUTO NARUTO (HOKAGE) 724 AAA Esclusiva Anime",
-          "price": 33.679,
-          "price_display": "33,68 €"
-        },
-        {
-          "title": "Funko POP! Boruto Next Gen. #724 NARUTO (HOKAGE) 2020 AAA Esclusa Protezione, Nuovo",
-          "price": 34.3592,
-          "price_display": "34,36 €"
+          "price": 32.3698,
+          "price_display": "32,37 €"
         },
         {
           "title": "Funko Pop Anime BORUTO Naruto (Hokage) #724 con protezione NUOVO VAULTED AAA Anime EX",
-          "price": 34.834599999999995,
-          "price_display": "34,83 €"
+          "price": 33.1188,
+          "price_display": "33,12 €"
+        },
+        {
+          "title": "con protezione Funko Pop! Vinile: Naruto Naruto (Hokage) anime AAA (esclusivo) #724",
+          "price": 33.385400000000004,
+          "price_display": "33,39 €"
+        },
+        {
+          "title": "Funko Pop! Boruto - Naruto (Hokage) #724 Esclusiva anime AAA",
+          "price": 33.5732,
+          "price_display": "33,57 €"
+        },
+        {
+          "title": "Funko Pop Boruto Naruto Hokage 724 AAA Anime Esclusiva Figura in Vinile - NUOVO",
+          "price": 33.6402,
+          "price_display": "33,64 €"
+        },
+        {
+          "title": "Funko POP! BORUTO NARUTO (HOKAGE) 724 AAA Esclusiva Anime",
+          "price": 33.7012,
+          "price_display": "33,70 €"
+        },
+        {
+          "title": "Funko POP! Boruto Next Gen. #724 NARUTO (HOKAGE) 2020 AAA Esclusa Protezione, Nuovo",
+          "price": 34.391400000000004,
+          "price_display": "34,39 €"
         },
         {
           "title": "Funko Pop! Animazione Boruto: Naruto (Hokage) Anime AAA (escl.) #724 con protezione",
-          "price": 35.4976,
-          "price_display": "35,50 €"
+          "price": 35.519800000000004,
+          "price_display": "35,52 €"
         },
         {
           "title": "Funko POP Animazione Boruto Naruto Hokage 724 Figura in Vinile AAA Anime Esclusivo",
-          "price": 36.735,
-          "price_display": "36,73 €"
-        },
-        {
-          "title": "Funko POP! Boruto NARUTO HOKAGE #724 AAA Anime Esclusivo NUOVO +Protettore quasi nuovo",
-          "price": 37.565200000000004,
-          "price_display": "37,57 €"
-        },
-        {
-          "title": "Funko Pop! Baruto: Naruto (Hokage) Pop Vinyl Figure (esclusiva anime AAA) #724",
-          "price": 37.605999999999995,
-          "price_display": "37,61 €"
-        },
-        {
-          "title": "Funko Pop! Vinile: Naruto - Naruto (Hokage) - Anime AAA (esclusivo) #724",
-          "price": 38.8138,
-          "price_display": "38,81 €"
+          "price": 36.757200000000005,
+          "price_display": "36,76 €"
         }
       ],
-      "average_price": 35.62472,
-      "average_price_display": "35,62 €",
+      "average_price": 33.74242,
+      "average_price_display": "33,74 €",
       "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 35.62472,
-      "line_total_display": "35,62 €"
+      "line_total": 33.74242,
+      "line_total_display": "33,74 €"
     },
     {
       "name": "Mayor Funko Pop",
@@ -2122,48 +2172,48 @@
         "mayor",
         "807"
       ],
-      "scanned_rows": 2,
+      "scanned_rows": 20,
       "valid_rows": 6,
       "excluded_banned": 0,
-      "excluded_bundle": 0,
-      "excluded_irrelevant": 0,
+      "excluded_bundle": 1,
+      "excluded_irrelevant": 1,
       "used_sales": [
         {
-          "title": "FUNKO POP DISNEY THE MAYOR 807 THE NIGHTMARE BEFORE CHRISTMAS VINYL FIGURE NUOVO",
-          "price": 17.9,
-          "price_display": "17,90 €"
+          "title": "FUNKO POP! DISNEY NIGHTMARE BEFORE CHRISTMAS - MAYOR - 807",
+          "price": 15.0,
+          "price_display": "15,00 €"
         },
         {
-          "title": "Funko POP! Nightmare Before Christmas - Mayor with Megaphone #807",
-          "price": 25.0,
-          "price_display": "25,00 €"
+          "title": "Nightmare Before Christmas Mayor with Megaphone Pop! Funko vinyl figure 807",
+          "price": 16.49,
+          "price_display": "16,49 €"
         },
         {
-          "title": "Funko Pop! Disney: Nightmare Before Christmas Mayor - #807 (Hot Topic Ecc)",
-          "price": 23.2684,
-          "price_display": "23,27 €"
+          "title": "Nightmare Before Christmas Mayor POP Disney #807 Vinyl Figure FUNKO",
+          "price": 18.0,
+          "price_display": "18,00 €"
         },
         {
-          "title": "Funko Pop! Disney Nightmare Before Christmas Mayor Figura in vinile 4\" #807",
-          "price": 15.434999999999999,
-          "price_display": "15,43 €"
+          "title": "FUNKO POP! Vinyl MAYOR - 807 - Special Edition - Diamond glitter",
+          "price": 19.0,
+          "price_display": "19,00 €"
         },
         {
-          "title": "Funko Pop! Disney: Mayor #807 Edizione Limitata Chase Vinyl Figure E2",
-          "price": 20.2104,
-          "price_display": "20,21 €"
+          "title": "FUNKO POP ! DISNEY NIGHTMARE BEFORE CHRISTMAS - (807) MAYOR W MEGAPHONE SINDACO",
+          "price": 19.9,
+          "price_display": "19,90 €"
         },
         {
-          "title": "Nuovo Funko Pop Disney Mayor Chase Figure Nightmare Before Christmas #807",
-          "price": 22.6066,
-          "price_display": "22,61 €"
+          "title": "FUNKO POP Disney Series: Nightmare Before Christmas - 807: Mayor VINYL FIGURE",
+          "price": 19.9,
+          "price_display": "19,90 €"
         }
       ],
-      "average_price": 20.736733333333333,
-      "average_price_display": "20,74 €",
-      "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 20.736733333333333,
-      "line_total_display": "20,74 €"
+      "average_price": 18.048333333333332,
+      "average_price_display": "18,05 €",
+      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
+      "line_total": 18.048333333333332,
+      "line_total_display": "18,05 €"
     },
     {
       "name": "Minato Namikaze AAA Anime Funko Pop",
@@ -2176,58 +2226,58 @@
         "anime",
         "935"
       ],
-      "scanned_rows": 18,
+      "scanned_rows": 19,
       "valid_rows": 8,
       "excluded_banned": 2,
-      "excluded_bundle": 0,
+      "excluded_bundle": 1,
       "excluded_irrelevant": 6,
       "used_sales": [
         {
+          "title": "Funko Pop!Naruto Shippuden Minato Namikaze #935 - Esclusiva AAA nella protezione",
+          "price": 27.029799999999998,
+          "price_display": "27,03 €"
+        },
+        {
           "title": "Funko Pop! Vinile: Naruto - Minato Namikaze (Chase) (Glow in the Dark) #935 AAA",
-          "price": 25.1,
-          "price_display": "25,10 €"
+          "price": 25.122200000000003,
+          "price_display": "25,12 €"
         },
         {
           "title": "Funko Pop! Vinile: #935 - Minato Namikaze - AAA Anime Expo Esclusiva Naruto",
-          "price": 31.977800000000002,
-          "price_display": "31,98 €"
+          "price": 31.997799999999998,
+          "price_display": "32,00 €"
         },
         {
           "title": "Naruto Shippuden Funko Pop 935: Minato Namikaze AAA anime GITD CHASE #1",
-          "price": 24.1312,
-          "price_display": "24,13 €"
+          "price": 24.1634,
+          "price_display": "24,16 €"
         },
         {
           "title": "Naruto Shippuden Funko Pop 935: Minato Namikaze AAA anime GITD CHASE #2",
-          "price": 24.4828,
-          "price_display": "24,48 €"
+          "price": 24.5028,
+          "price_display": "24,50 €"
         },
         {
           "title": "Naruto Shippuden Funko Pop 935: Minato Namikaze AAA anime GITD CHASE",
-          "price": 31.006,
-          "price_display": "31,01 €"
+          "price": 31.0282,
+          "price_display": "31,03 €"
         },
         {
           "title": "Funko Minato Namikaze 935 Naruto Shippuden con protezione pop AAA esclusiva anime",
-          "price": 23.4302,
-          "price_display": "23,43 €"
+          "price": 23.4524,
+          "price_display": "23,45 €"
         },
         {
           "title": "Naruto: Funko Minato Namikaze Pop! Figurina in vinile 935 - Esclusiva anime AAA",
-          "price": 26.4438,
-          "price_display": "26,44 €"
-        },
-        {
-          "title": "FUNKO POP! MINATO NAMIKAZE 935 AAA ANIME ESCLUSIVO NARUTO D01",
-          "price": 20.2592,
-          "price_display": "20,26 €"
+          "price": 26.476,
+          "price_display": "26,48 €"
         }
       ],
-      "average_price": 25.853875000000002,
-      "average_price_display": "25,85 €",
+      "average_price": 26.721575,
+      "average_price_display": "26,72 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 25.853875000000002,
-      "line_total_display": "25,85 €"
+      "line_total": 26.721575,
+      "line_total_display": "26,72 €"
     },
     {
       "name": "Doflamingo Funko Pop",
@@ -2237,11 +2287,11 @@
         "doflamingo",
         "400"
       ],
-      "scanned_rows": 14,
+      "scanned_rows": 15,
       "valid_rows": 9,
       "excluded_banned": 0,
       "excluded_bundle": 0,
-      "excluded_irrelevant": 0,
+      "excluded_irrelevant": 1,
       "used_sales": [
         {
           "title": "FUNKO POP ! ANIMATION - ONE PIECE (400) DONQUIXOTE DOFLAMINGO VINYL FIGURE 9CM",
@@ -2312,61 +2362,61 @@
       "excluded_irrelevant": 3,
       "used_sales": [
         {
-          "title": "Funko Pop! Vinile: Naruto - Madara (Rianimazione) - GameStop (Esclusivo) #722",
-          "price": 23.459200000000003,
-          "price_display": "23,46 €"
+          "title": "Funko POP! Naruto Shippuden - Madara #722 [Rianimazione] Esclusiva GameStop",
+          "price": 26.858999999999998,
+          "price_display": "26,86 €"
+        },
+        {
+          "title": "Funko Pop Anime Naruto Madara Rianimazione GameStop 722 Giappone Manga Figura in Vinile",
+          "price": 29.9022,
+          "price_display": "29,90 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Madara (Rianimazione) - GameStop (Esclusivo) #722",
-          "price": 23.5524,
-          "price_display": "23,55 €"
+          "price": 23.479200000000002,
+          "price_display": "23,48 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Madara (Rianimazione) - GameStop (Esclusivo) #722",
-          "price": 31.776,
-          "price_display": "31,78 €"
+          "price": 23.5624,
+          "price_display": "23,56 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Madara (Rianimazione) - GameStop (Esclusivo) #722",
-          "price": 34.29,
-          "price_display": "34,29 €"
+          "price": 31.796,
+          "price_display": "31,80 €"
+        },
+        {
+          "title": "Funko Pop! Vinile: Naruto - Madara (Rianimazione) - GameStop (Esclusivo) #722",
+          "price": 34.3222,
+          "price_display": "34,32 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden - Madara (rianimazione) esclusiva Gamestop #722",
-          "price": 21.3462,
-          "price_display": "21,35 €"
+          "price": 21.3784,
+          "price_display": "21,38 €"
         },
         {
           "title": "FUNKO POP! #722 MADARA (RIANIMAZIONE) NARUTO GAMESTOP ESCLUSIVO NUOVO CON PROTETTORE",
-          "price": 33.679,
-          "price_display": "33,68 €"
+          "price": 33.7012,
+          "price_display": "33,70 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden - Madara (Rianimazione) #722 (Esclusiva GameStop)",
-          "price": 32.6424,
-          "price_display": "32,64 €"
+          "price": 32.7624,
+          "price_display": "32,76 €"
         },
         {
           "title": "Funko Pop! Madara Rianimazione Naruto Shippuden Gamestop Anime Pop 722",
-          "price": 28.3352,
-          "price_display": "28,34 €"
-        },
-        {
-          "title": "Funko POP! Naruto Shippuden MADARA Reanimation #722 Game Stop Exclusive",
-          "price": 33.6668,
-          "price_display": "33,67 €"
-        },
-        {
-          "title": "Funko Pop Animazione Naruto Shippuden Madara (Rianimazione) Esclusiva GameStop 722",
-          "price": 23.4546,
-          "price_display": "23,45 €"
+          "price": 28.357400000000002,
+          "price_display": "28,36 €"
         }
       ],
-      "average_price": 28.620179999999998,
-      "average_price_display": "28,62 €",
+      "average_price": 28.61204,
+      "average_price_display": "28,61 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 28.620179999999998,
-      "line_total_display": "28,62 €"
+      "line_total": 28.61204,
+      "line_total_display": "28,61 €"
     },
     {
       "name": "Charizard Funko Pop",
@@ -2376,48 +2426,68 @@
         "charizard",
         "843"
       ],
-      "scanned_rows": 1,
-      "valid_rows": 6,
+      "scanned_rows": 54,
+      "valid_rows": 10,
       "excluded_banned": 0,
-      "excluded_bundle": 0,
-      "excluded_irrelevant": 0,
+      "excluded_bundle": 1,
+      "excluded_irrelevant": 3,
       "used_sales": [
         {
-          "title": "Funko Pop Charizard 843 Bersaglio Colore Morbido Esclusivo",
-          "price": 21.672600000000003,
-          "price_display": "21,67 €"
+          "title": "Funko Pop! Games: Pokemon - Charizard #843 Figurina di Vinile",
+          "price": 21.0,
+          "price_display": "21,00 €"
         },
         {
-          "title": "Funko Pop! Vinile: Pokémon - Charizard #843",
-          "price": 26.341,
-          "price_display": "26,34 €"
+          "title": "Pokemon Funko POP! Games Vinyl Figure Charizard (EMEA) 9 cm #843 - Games",
+          "price": 21.9,
+          "price_display": "21,90 €"
         },
         {
-          "title": "CHARIZARD PEARLESCENT FUNKO POP - 843 - POKEMON - NEW / SEALED",
-          "price": 19.8738,
-          "price_display": "19,87 €"
+          "title": "Charizard 843 Pokemon Funko POP! Games Vinyl Figure Spedizione Rapida",
+          "price": 22.9,
+          "price_display": "22,90 €"
         },
         {
-          "title": "Funko Pop! Charizard #843, Pokemon, giochi Nintendo",
-          "price": 28.262,
-          "price_display": "28,26 €"
+          "title": "Pokemon Charizard Funko Pop! Games 843 Vinyl Figure 9cm Nuovo Originale",
+          "price": 22.9,
+          "price_display": "22,90 €"
         },
         {
-          "title": "Funko Pop! Giochi: Pokemon - Charizard 3,75 pollici - #843",
-          "price": 27.0076,
-          "price_display": "27,01 €"
+          "title": "Funko Pop Games Pokémon - Charizard 843 Nuovo Sigillato",
+          "price": 23.0,
+          "price_display": "23,00 €"
         },
         {
-          "title": "Funko Pop! Pokémon Charizard #843 con protezione POP",
-          "price": 21.538,
-          "price_display": "21,54 €"
+          "title": "Funko Pop - Pokemon Statua Figure Charizard 9CM - #843",
+          "price": 24.9,
+          "price_display": "24,90 €"
+        },
+        {
+          "title": "Funko Pop Vinyl Animation Games Anime da Pokemon di Charizard 843 Nuovo...",
+          "price": 24.9,
+          "price_display": "24,90 €"
+        },
+        {
+          "title": "Funko Pop! Games Pokémon (843) Charizard Special Edition Soft Color - Vinyl Figu",
+          "price": 24.9,
+          "price_display": "24,90 €"
+        },
+        {
+          "title": "Funko Pop! - 843 - Pokemon - Charizard",
+          "price": 24.95,
+          "price_display": "24,95 €"
+        },
+        {
+          "title": "Funko POP ! Charizard 843 Pokemon originale e in perfette condizioni",
+          "price": 24.99,
+          "price_display": "24,99 €"
         }
       ],
-      "average_price": 24.11583333333333,
-      "average_price_display": "24,12 €",
-      "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 24.11583333333333,
-      "line_total_display": "24,12 €"
+      "average_price": 23.633999999999997,
+      "average_price_display": "23,63 €",
+      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
+      "line_total": 23.633999999999997,
+      "line_total_display": "23,63 €"
     },
     {
       "name": "Whis Galactic Toys Funko Pop",
@@ -2431,31 +2501,31 @@
       ],
       "scanned_rows": 62,
       "valid_rows": 3,
-      "excluded_banned": 2,
+      "excluded_banned": 3,
       "excluded_bundle": 3,
-      "excluded_irrelevant": 52,
+      "excluded_irrelevant": 51,
       "used_sales": [
         {
-          "title": "FUNKO POP! WHIS 317 GLOWS IN DARK GALACTIC TOYS DBZ POP ANIMAZIONE DB1",
-          "price": 26.9384,
-          "price_display": "26,94 €"
+          "title": "Funko Pop! Animazione: DBS - Whis GITD Galactic Toys Esclusivo",
+          "price": 24.298000000000002,
+          "price_display": "24,30 €"
         },
         {
-          "title": "Funko Pop! Animazione: DBS - Whis GITD Galactic Toys Esclusivo",
-          "price": 24.2758,
-          "price_display": "24,28 €"
+          "title": "FUNKO POP! WHIS 317 GLOWS IN DARK GALACTIC TOYS DBZ POP ANIMAZIONE DB1",
+          "price": 26.9506,
+          "price_display": "26,95 €"
         },
         {
           "title": "Funko Pop Animazione Dragonball Super Whis GITD Galactic Toys Esclusivo Glow 317",
-          "price": 22.8428,
-          "price_display": "22,84 €"
+          "price": 22.8528,
+          "price_display": "22,85 €"
         }
       ],
-      "average_price": 24.685666666666666,
-      "average_price_display": "24,69 €",
+      "average_price": 24.700466666666667,
+      "average_price_display": "24,70 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 24.685666666666666,
-      "line_total_display": "24,69 €"
+      "line_total": 24.700466666666667,
+      "line_total_display": "24,70 €"
     },
     {
       "name": "Gaara Hot Topic Funko Pop",
@@ -2480,35 +2550,35 @@
         },
         {
           "title": "Funko Pop! Naruto Gaara #728 Metallic Hot Topic Esclusivo Funko Pop con Protezione",
-          "price": 28.322999999999997,
-          "price_display": "28,32 €"
+          "price": 28.345200000000002,
+          "price_display": "28,35 €"
         },
         {
           "title": "Naruto Shippuden Funko Pop Gaara Hot Topic Metallic Exclusive #728 con protezione",
-          "price": 29.629400000000004,
-          "price_display": "29,63 €"
+          "price": 29.6616,
+          "price_display": "29,66 €"
         },
         {
           "title": "Funko Pop Animation #728 Naruto Shippuden Gaara METALLIC Hot Topic esclusivo NUOVO",
-          "price": 26.553,
-          "price_display": "26,55 €"
+          "price": 26.5752,
+          "price_display": "26,58 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Gaara (Metallizzato) - Hot Topic (Esclusivo) #728",
-          "price": 23.9266,
-          "price_display": "23,93 €"
+          "price": 23.9488,
+          "price_display": "23,95 €"
         },
         {
           "title": "Funko Pop Animazione: Naruto Shippuden 728 Gaara Hot Topic Esclusivo",
-          "price": 28.956200000000003,
-          "price_display": "28,96 €"
+          "price": 28.9884,
+          "price_display": "28,99 €"
         }
       ],
-      "average_price": 28.729699999999998,
-      "average_price_display": "28,73 €",
+      "average_price": 28.75153333333333,
+      "average_price_display": "28,75 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 28.729699999999998,
-      "line_total_display": "28,73 €"
+      "line_total": 28.75153333333333,
+      "line_total_display": "28,75 €"
     },
     {
       "name": "Andromeda Shun Funko Pop",
@@ -2586,68 +2656,33 @@
         "hyoga",
         "808"
       ],
-      "scanned_rows": 38,
-      "valid_rows": 10,
-      "excluded_banned": 0,
-      "excluded_bundle": 1,
-      "excluded_irrelevant": 6,
+      "scanned_rows": 61,
+      "valid_rows": 3,
+      "excluded_banned": 3,
+      "excluded_bundle": 12,
+      "excluded_irrelevant": 41,
       "used_sales": [
         {
-          "title": "FUNKO POP ANIMATION SAINT SEIYA CYGNUS HYOGA 808 VINYL FIGURE - NUOVO NEW",
-          "price": 18.9,
-          "price_display": "18,90 €"
+          "title": "Funko POP! Animazione Saint Seiya CYGNUS HYOGA 808",
+          "price": 16.345599999999997,
+          "price_display": "16,35 €"
         },
         {
-          "title": "Merchandising Saint Seiya: Funko Pop! Animation - Cygnus Hyoga (Vinyl Figure 808",
-          "price": 19.72,
-          "price_display": "19,72 €"
+          "title": "Funko Pop • 808 • Saint Seiya • Cavalieri dello Zodiaco • Cygnus Hyoga",
+          "price": 21.1,
+          "price_display": "21,10 €"
         },
         {
-          "title": "Saint Seiya: Funko Pop! Animation - Cygnus Hyoga (Vinyl Figure 808) - AA.VV.",
-          "price": 20.25,
-          "price_display": "20,25 €"
-        },
-        {
-          "title": "Funko Pop ! Animation Saint Seiya - (808) Cygnus Hyoga Cavalieri Dello Zodiaco",
-          "price": 20.9,
-          "price_display": "20,90 €"
-        },
-        {
-          "title": "Gadget - Saint Seiya: Funko Pop! Animation - Cygnus Hyoga (Vinyl Figure 808) -I-",
-          "price": 22.68,
-          "price_display": "22,68 €"
-        },
-        {
-          "title": "Saint Seiya Cygnus Hyoga Funko Pop 808 Vinyl Figure 9 cm Cristal il Cigno Nuova",
-          "price": 22.9,
-          "price_display": "22,90 €"
-        },
-        {
-          "title": "CYGNUS HYOGA CRYSTAL DI SAITNS SEIYA FUNKO POP 808 DA 10 CM CAVALIERI DELLO ZODI",
-          "price": 23.59,
-          "price_display": "23,59 €"
-        },
-        {
-          "title": "POP! Animation #808 - Saint Seiya - Cygnus Hyoga Vinyl Figure Funko",
-          "price": 24.3,
-          "price_display": "24,30 €"
-        },
-        {
-          "title": "Saint Seiya POP! CYGNUS HYOGA CRYSTAL #808 Funko Funko",
-          "price": 24.9,
-          "price_display": "24,90 €"
-        },
-        {
-          "title": "Funko POP ! 808 Cygnus Hyoga - Saint Seiya ANIME - Cavalieri dello Zodiaco",
-          "price": 26.0,
-          "price_display": "26,00 €"
+          "title": "Damaged Cygnus Hyoga 808 Saint Seiya Knights of the Zodiac Funko Pop Figure",
+          "price": 22.1552,
+          "price_display": "22,16 €"
         }
       ],
-      "average_price": 22.413999999999998,
-      "average_price_display": "22,41 €",
-      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 22.413999999999998,
-      "line_total_display": "22,41 €"
+      "average_price": 19.866933333333332,
+      "average_price_display": "19,87 €",
+      "note": "Prezzi da venduti: merge di locale + internazionali.",
+      "line_total": 19.866933333333332,
+      "line_total_display": "19,87 €"
     },
     {
       "name": "Goku Ultra Funko Pop",
@@ -2658,7 +2693,7 @@
         "ultra",
         "386"
       ],
-      "scanned_rows": 28,
+      "scanned_rows": 27,
       "valid_rows": 10,
       "excluded_banned": 0,
       "excluded_bundle": 1,
@@ -2731,36 +2766,36 @@
       ],
       "scanned_rows": 61,
       "valid_rows": 4,
-      "excluded_banned": 15,
+      "excluded_banned": 14,
       "excluded_bundle": 4,
-      "excluded_irrelevant": 38,
+      "excluded_irrelevant": 39,
       "used_sales": [
         {
           "title": "FUNKO POP! OVERHAUL 788 MY HERO ACADEMIA U01",
-          "price": 16.250799999999998,
-          "price_display": "16,25 €"
+          "price": 16.273,
+          "price_display": "16,27 €"
         },
         {
           "title": "Funko POP! Animazione My Hero Academia OVERHAUL 788",
-          "price": 11.6628,
-          "price_display": "11,66 €"
+          "price": 11.6828,
+          "price_display": "11,68 €"
         },
         {
           "title": "Funko POP! Animazione My Hero Academia OVERHAUL 788",
-          "price": 14.136200000000002,
-          "price_display": "14,14 €"
+          "price": 14.1584,
+          "price_display": "14,16 €"
         },
         {
           "title": "Funko POP Animation My Hero Academia Overhaul 788 Vinyl Figure",
-          "price": 12.5708,
-          "price_display": "12,57 €"
+          "price": 12.5586,
+          "price_display": "12,56 €"
         }
       ],
-      "average_price": 13.65515,
-      "average_price_display": "13,66 €",
+      "average_price": 13.6682,
+      "average_price_display": "13,67 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 13.65515,
-      "line_total_display": "13,66 €"
+      "line_total": 13.6682,
+      "line_total_display": "13,67 €"
     },
     {
       "name": "Mr Compress Funko Pop",
@@ -2772,7 +2807,7 @@
         "820"
       ],
       "scanned_rows": 1,
-      "valid_rows": 7,
+      "valid_rows": 8,
       "excluded_banned": 0,
       "excluded_bundle": 0,
       "excluded_irrelevant": 0,
@@ -2783,41 +2818,46 @@
           "price_display": "25,00 €"
         },
         {
+          "title": "FUNKO POP! MY HERO ACADEMIA #820 MR COMPRESS EDIZIONE CONVENTION AUTUNNALE 2020",
+          "price": 24.3226,
+          "price_display": "24,32 €"
+        },
+        {
           "title": "Funko Pop! MR. COMPRESS #820 - Esclusiva convenzione autunnale My Hero Academia 2020",
-          "price": 34.9576,
-          "price_display": "34,96 €"
+          "price": 34.9898,
+          "price_display": "34,99 €"
         },
         {
           "title": "Funko Pop! Vinile: My Hero Academia - Mr. Compress - Hot Topic (HT)...",
-          "price": 29.6014,
-          "price_display": "29,60 €"
+          "price": 29.623599999999996,
+          "price_display": "29,62 €"
         },
         {
           "title": "Funko Pop! My Hero Academia Mr. Compress #820 Esclusiva Convenzione Autunno 2020",
-          "price": 28.322999999999997,
-          "price_display": "28,32 €"
+          "price": 28.345200000000002,
+          "price_display": "28,35 €"
         },
         {
           "title": "Funko Pop! My Hero Academia - Mr. Compress - Figura in vinile #820",
-          "price": 29.797,
-          "price_display": "29,80 €"
+          "price": 29.816999999999997,
+          "price_display": "29,82 €"
         },
         {
           "title": "Funko Pop! My Hero Academia Mr. Compress #820 2020 Esclusiva Convenzione Autunno J3",
-          "price": 24.2676,
-          "price_display": "24,27 €"
+          "price": 24.2898,
+          "price_display": "24,29 €"
         },
         {
           "title": "Funko Pop! 820 Mr Compress My Hero Academia Esclusiva Convenzione Autunno 2020",
-          "price": 29.668400000000002,
-          "price_display": "29,67 €"
+          "price": 29.6906,
+          "price_display": "29,69 €"
         }
       ],
-      "average_price": 28.802142857142858,
-      "average_price_display": "28,80 €",
+      "average_price": 28.259825,
+      "average_price_display": "28,26 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 28.802142857142858,
-      "line_total_display": "28,80 €"
+      "line_total": 28.259825,
+      "line_total_display": "28,26 €"
     },
     {
       "name": "Sasuke Funko Pop",
@@ -2827,43 +2867,43 @@
         "sasuke",
         "72"
       ],
-      "scanned_rows": 16,
+      "scanned_rows": 17,
       "valid_rows": 5,
       "excluded_banned": 2,
       "excluded_bundle": 2,
-      "excluded_irrelevant": 2,
+      "excluded_irrelevant": 3,
       "used_sales": [
         {
           "title": "Funko Pop! Vinile: Naruto - Sasuke Uchiha #72",
-          "price": 17.249200000000002,
-          "price_display": "17,25 €"
+          "price": 17.2592,
+          "price_display": "17,26 €"
         },
         {
           "title": "Funko POP! Animazione Anime Naruto Shippuden Sasuke Uchiha Figura in Vinile # 72",
-          "price": 20.2714,
-          "price_display": "20,27 €"
+          "price": 20.2936,
+          "price_display": "20,29 €"
         },
         {
           "title": "FUNKO POP! SASUKE 72 NARUTO POP ANIMAZIONE P01",
-          "price": 17.301399999999997,
-          "price_display": "17,30 €"
+          "price": 17.3114,
+          "price_display": "17,31 €"
         },
         {
           "title": "Funko Pop! Animazione Naruto Shippuden #72 Sasuke Figura in vinile",
-          "price": 19.4308,
-          "price_display": "19,43 €"
+          "price": 19.453,
+          "price_display": "19,45 €"
         },
         {
           "title": "Funko Pop! Animazione - Naruto Shippuden: Sasuke #72 NUOVO",
-          "price": 19.154999999999998,
-          "price_display": "19,15 €"
+          "price": 19.1872,
+          "price_display": "19,19 €"
         }
       ],
-      "average_price": 18.681559999999998,
-      "average_price_display": "18,68 €",
+      "average_price": 18.70088,
+      "average_price_display": "18,70 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 18.681559999999998,
-      "line_total_display": "18,68 €"
+      "line_total": 18.70088,
+      "line_total_display": "18,70 €"
     },
     {
       "name": "Mikasa Chalice Funko Pop",
@@ -2877,8 +2917,8 @@
       "scanned_rows": 118,
       "valid_rows": 5,
       "excluded_banned": 1,
-      "excluded_bundle": 28,
-      "excluded_irrelevant": 82,
+      "excluded_bundle": 26,
+      "excluded_irrelevant": 84,
       "used_sales": [
         {
           "title": "MIKASA ACKERMANN (CHALICE COLLECTIBLES) - ATTACK ON TITAN - FUNKO POP! #1172",
@@ -2887,13 +2927,13 @@
         },
         {
           "title": "Funko Pop! Attack on Titan Mikasa Ackerman #1172 Chalice Collectibles",
-          "price": 49.8956,
-          "price_display": "49,90 €"
+          "price": 49.883399999999995,
+          "price_display": "49,88 €"
         },
         {
           "title": "Funko Pop! Attack on Titan Mikasa Ackermann #1172 Chalice Collectibles Exclusive",
-          "price": 40.655,
-          "price_display": "40,66 €"
+          "price": 40.885,
+          "price_display": "40,88 €"
         },
         {
           "title": "Funko Pop! Attack On Titan Mikasa Ackermann Chalice Esclusivo #1172",
@@ -2902,15 +2942,15 @@
         },
         {
           "title": "Funko Pop! Attack on Titan Mikasa Ackermann #1172 Chalice Collectible Exclusive",
-          "price": 59.2072,
-          "price_display": "59,21 €"
+          "price": 59.184999999999995,
+          "price_display": "59,18 €"
         }
       ],
-      "average_price": 53.44724,
-      "average_price_display": "53,45 €",
+      "average_price": 53.486360000000005,
+      "average_price_display": "53,49 €",
       "note": "Prezzi da annunci attivi (nessuna vendita recente trovata).",
-      "line_total": 53.44724,
-      "line_total_display": "53,45 €"
+      "line_total": 53.486360000000005,
+      "line_total_display": "53,49 €"
     },
     {
       "name": "Shikamaru Funko Pop",
@@ -3040,30 +3080,30 @@
       "used_sales": [
         {
           "title": "Funko Pop! Animation Naruto Shippunden #730 Tsunade",
-          "price": 17.1288,
-          "price_display": "17,13 €"
+          "price": 17.153200000000002,
+          "price_display": "17,15 €"
         },
         {
           "title": "Naruto Tsunade Funko Pop 730 Fifth Hokage Shippuden Anime Figura in Vinile Nuovo",
-          "price": 16.715799999999998,
-          "price_display": "16,72 €"
+          "price": 16.738,
+          "price_display": "16,74 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Tsunade #730 con protezione pop",
-          "price": 15.2714,
-          "price_display": "15,27 €"
+          "price": 15.281399999999998,
+          "price_display": "15,28 €"
         },
         {
           "title": "Funko Pop! Vinile: Naruto - Tsunade #730",
-          "price": 14.5762,
-          "price_display": "14,58 €"
+          "price": 14.586200000000002,
+          "price_display": "14,59 €"
         }
       ],
-      "average_price": 15.92305,
-      "average_price_display": "15,92 €",
+      "average_price": 15.9397,
+      "average_price_display": "15,94 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 15.92305,
-      "line_total_display": "15,92 €"
+      "line_total": 15.9397,
+      "line_total_display": "15,94 €"
     },
     {
       "name": "Nairobi Funko Pop",
@@ -3073,53 +3113,43 @@
         "nairobi",
         "916"
       ],
-      "scanned_rows": 17,
-      "valid_rows": 7,
+      "scanned_rows": 2,
+      "valid_rows": 5,
       "excluded_banned": 0,
       "excluded_bundle": 0,
-      "excluded_irrelevant": 3,
+      "excluded_irrelevant": 0,
       "used_sales": [
         {
-          "title": "Funko Pop Television La casa de papel Nairobi 916 DISPONIBILE NUOVO NEW MAI APER",
-          "price": 16.1,
-          "price_display": "16,10 €"
+          "title": "Funko POP! Televisione - La Casa De Papel - Nairobi #916 [Pila di Soldi]",
+          "price": 21.480800000000002,
+          "price_display": "21,48 €"
         },
         {
-          "title": "Funko POP! La Casa de Papel - Nairobi #916",
-          "price": 20.0,
-          "price_display": "20,00 €"
+          "title": "Funko Pop Money Heist (La Casa De Papel) Nairobi #916 + protettore omaggio",
+          "price": 16.7018,
+          "price_display": "16,70 €"
         },
         {
-          "title": "FUNKO POP ! TELEVISION LA CASA DE PAPEL - (916) NAIROBI FIGURE CASA DI CARTA 9CM",
-          "price": 23.0,
-          "price_display": "23,00 €"
+          "title": "Funko POP! Televisione La casa De Papel Nairobi #916 Rapina di denaro BX2",
+          "price": 27.659999999999997,
+          "price_display": "27,66 €"
         },
         {
-          "title": "Funko Pop! 916 Nairobi",
-          "price": 23.99,
-          "price_display": "23,99 €"
+          "title": "Funko Pop! Casa de Papel: Nairobi #916 vinile",
+          "price": 23.964199999999998,
+          "price_display": "23,96 €"
         },
         {
-          "title": "FUNKO POP Television Series: La Casa de Papel; 916: Nairobi VINYL POP FIGURE",
-          "price": 24.9,
-          "price_display": "24,90 €"
-        },
-        {
-          "title": "Funko POP! La Casa de Papel - Nairobi #916",
-          "price": 25.0,
-          "price_display": "25,00 €"
-        },
-        {
-          "title": "Funko Pop Nairobi 916 La Casa Di Carta ORIGINALE NUOVO",
-          "price": 25.99,
-          "price_display": "25,99 €"
+          "title": "FUNKO POP! NAIROBI 916 LA CASA DE PAPEL",
+          "price": 19.398,
+          "price_display": "19,40 €"
         }
       ],
-      "average_price": 22.71142857142857,
-      "average_price_display": "22,71 €",
-      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 22.71142857142857,
-      "line_total_display": "22,71 €"
+      "average_price": 21.84096,
+      "average_price_display": "21,84 €",
+      "note": "Prezzi da venduti: merge di locale + internazionali.",
+      "line_total": 21.84096,
+      "line_total_display": "21,84 €"
     },
     {
       "name": "Shigaraki Galactic Toys Funko Pop",
@@ -3131,31 +3161,31 @@
         "toys",
         "565"
       ],
-      "scanned_rows": 83,
+      "scanned_rows": 84,
       "valid_rows": 10,
-      "excluded_banned": 1,
+      "excluded_banned": 2,
       "excluded_bundle": 0,
-      "excluded_irrelevant": 66,
+      "excluded_irrelevant": 68,
       "used_sales": [
         {
           "title": "Funko Pop My Hero Academia - Tomura Shigaraki GALACTIC Toys #565 con protettore",
-          "price": 27.7676,
-          "price_display": "27,77 €"
+          "price": 27.7876,
+          "price_display": "27,79 €"
         },
         {
           "title": "Funko Pop! My Hero Academia Tomura Shigaraki Galactic Toys 565 con protezione pop!",
-          "price": 29.501799999999996,
-          "price_display": "29,50 €"
+          "price": 29.524,
+          "price_display": "29,52 €"
         },
         {
           "title": "Funko Pop My Hero Academia Tomura Shigaraki Galactic Toys Esclusivo n. 565",
-          "price": 31.6514,
-          "price_display": "31,65 €"
+          "price": 31.6736,
+          "price_display": "31,67 €"
         },
         {
           "title": "Funko Pop! MHA: Tomura Shigaraki #565 Galactic Toys Esclusiva Figura in Vinile",
-          "price": 33.1362,
-          "price_display": "33,14 €"
+          "price": 33.1684,
+          "price_display": "33,17 €"
         },
         {
           "title": "TOMURA SHIGARAKI (GALACTIC TOYS) - MY HERO ACADEMIA - FUNKO POP! #565",
@@ -3163,14 +3193,14 @@
           "price_display": "34,99 €"
         },
         {
-          "title": "FUNKO POP! ANIMAZIONE TOMURA SHIGARAKI 565 My Hero Academia Vaulted Galactic Toys",
-          "price": 35.114,
-          "price_display": "35,11 €"
+          "title": "Funko Pop! Animazione - Tomura Shigaraki #565 MY HERO ACADEMIA GalacticToys Escl.",
+          "price": 36.3052,
+          "price_display": "36,31 €"
         },
         {
-          "title": "Funko Pop! Animazione - Tomura Shigaraki #565 MY HERO ACADEMIA GalacticToys Escl.",
-          "price": 36.283,
-          "price_display": "36,28 €"
+          "title": "FUNKO POP! ANIMAZIONE TOMURA SHIGARAKI 565 My Hero Academia Vaulted Galactic Toys",
+          "price": 36.955200000000005,
+          "price_display": "36,96 €"
         },
         {
           "title": "TOMURA SHIGARAKI (GALACTIC TOYS) - MY HERO ACADEMIA - FUNKO POP! #565",
@@ -3188,11 +3218,11 @@
           "price_display": "41,95 €"
         }
       ],
-      "average_price": 34.90578,
-      "average_price_display": "34,91 €",
+      "average_price": 35.101780000000005,
+      "average_price_display": "35,10 €",
       "note": "Prezzi da annunci attivi (nessuna vendita recente trovata).",
-      "line_total": 34.90578,
-      "line_total_display": "34,91 €"
+      "line_total": 35.101780000000005,
+      "line_total_display": "35,10 €"
     },
     {
       "name": "Naruto Funko Pop",
@@ -3345,64 +3375,64 @@
       "valid_rows": 10,
       "excluded_banned": 2,
       "excluded_bundle": 4,
-      "excluded_irrelevant": 35,
+      "excluded_irrelevant": 34,
       "used_sales": [
         {
-          "title": "Funko Pop Animation Kakashi Lightning Blade #548 – Hot Topic Exclusive",
-          "price": 29.26,
-          "price_display": "29,26 €"
-        },
-        {
-          "title": "Funko Pop! Vinyl: Naruto Shippuden - Kakashi (Lightning Blade) - Hot Topic...",
-          "price": 29.608,
-          "price_display": "29,61 €"
+          "title": "Funko Pop! Vinile: Naruto - Kakashi (Lightning Blade) Hot Topic (esclusivo) #548",
+          "price": 31.240199999999998,
+          "price_display": "31,24 €"
         },
         {
           "title": "Funko Pop! Animazione Naruto Shippuden Kakashi Figura in Vinile #548 Hot Topic",
-          "price": 32.0656,
-          "price_display": "32,07 €"
+          "price": 32.09780000000001,
+          "price_display": "32,10 €"
         },
         {
           "title": "Funko Pop 548 Kakashi Lightning Blade Hot Topic esclusivo Naruto quasi nuovo anime",
-          "price": 32.3476,
-          "price_display": "32,35 €"
+          "price": 32.3698,
+          "price_display": "32,37 €"
         },
         {
           "title": "Funko Pop! Animazione: KAKASHI (Lightning Blade) #548 Esclusiva Naruto Hot Topic",
-          "price": 32.909800000000004,
-          "price_display": "32,91 €"
+          "price": 32.9298,
+          "price_display": "32,93 €"
         },
         {
           "title": "Funko Pop! Kakashi (Lightning Blade) Naruto Shippuden Hot Topic IN MAGAZZINO Pop 548",
-          "price": 33.49,
-          "price_display": "33,49 €"
+          "price": 33.5244,
+          "price_display": "33,52 €"
         },
         {
           "title": "Funko PoP! Naruto Shippuden Kakashi (Lama Fulmine) Hot Topic Exclusive 548",
-          "price": 33.7414,
-          "price_display": "33,74 €"
+          "price": 33.7736,
+          "price_display": "33,77 €"
         },
         {
           "title": "Funko Pop! Naruto Shippuden Kakashi (Lama Fulmine) Hot Topic 548 con protezione!",
-          "price": 33.837599999999995,
-          "price_display": "33,84 €"
+          "price": 33.8598,
+          "price_display": "33,86 €"
         },
         {
-          "title": "Funko Pop! Vinile: Naruto - Kakashi (Lightning Blade) Hot Topic (esclusivo) #548",
-          "price": 34.5576,
-          "price_display": "34,56 €"
+          "title": "Funko Pop! Naruto Shippuden - Kakashi (Lama Fulmine) # 548 - Hot Topic NUOVO",
+          "price": 34.0076,
+          "price_display": "34,01 €"
         },
         {
           "title": "Funko Pop!: Naruto Shippuden - Kakashi (Lama di Fulmine) - Hot Topic #548",
-          "price": 36.2498,
-          "price_display": "36,25 €"
+          "price": 36.269800000000004,
+          "price_display": "36,27 €"
+        },
+        {
+          "title": "Funko Pop! 548 Kakashi Lightning Blade Exclusive Hot Topic Naruto Shippuden",
+          "price": 38.1276,
+          "price_display": "38,13 €"
         }
       ],
-      "average_price": 32.806740000000005,
-      "average_price_display": "32,81 €",
+      "average_price": 33.82004,
+      "average_price_display": "33,82 €",
       "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 32.806740000000005,
-      "line_total_display": "32,81 €"
+      "line_total": 33.82004,
+      "line_total_display": "33,82 €"
     },
     {
       "name": "Yugi Muto Funko Pop",
@@ -3486,31 +3516,31 @@
       ],
       "scanned_rows": 61,
       "valid_rows": 3,
-      "excluded_banned": 3,
-      "excluded_bundle": 9,
-      "excluded_irrelevant": 41,
+      "excluded_banned": 4,
+      "excluded_bundle": 11,
+      "excluded_irrelevant": 38,
       "used_sales": [
         {
           "title": "Funko Pop Berlin Chase #743 La Casa De Papel (Money Heist)",
-          "price": 23.1068,
-          "price_display": "23,11 €"
+          "price": 23.1312,
+          "price_display": "23,13 €"
         },
         {
           "title": "Funko Pop! Televisione: Berlino #743 La Casa De Papel Figura in vinile G3",
-          "price": 20.2592,
-          "price_display": "20,26 €"
+          "price": 20.281399999999998,
+          "price_display": "20,28 €"
         },
         {
           "title": "Nuovo Funko Pop Television La Casa De Papel #743 Berlino figurina vinile",
-          "price": 18.5458,
-          "price_display": "18,55 €"
+          "price": 18.5558,
+          "price_display": "18,56 €"
         }
       ],
-      "average_price": 20.637266666666665,
-      "average_price_display": "20,64 €",
+      "average_price": 20.656133333333333,
+      "average_price_display": "20,66 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 20.637266666666665,
-      "line_total_display": "20,64 €"
+      "line_total": 20.656133333333333,
+      "line_total_display": "20,66 €"
     },
     {
       "name": "Naruto Rasengan Funko Pop",
@@ -3594,58 +3624,58 @@
         "earth",
         "596"
       ],
-      "scanned_rows": 20,
+      "scanned_rows": 19,
       "valid_rows": 8,
       "excluded_banned": 1,
       "excluded_bundle": 1,
-      "excluded_irrelevant": 8,
+      "excluded_irrelevant": 7,
       "used_sales": [
         {
+          "title": "Funko Pop! My Hero Academia – Deku #596 Glow in the Dark Entertainment Earth MHA",
+          "price": 26.6796,
+          "price_display": "26,68 €"
+        },
+        {
           "title": "Funko Pop My Hero Academia Deku 596 Entertainment Earth esclusivo con protezione",
-          "price": 21.637,
-          "price_display": "21,64 €"
+          "price": 21.6692,
+          "price_display": "21,67 €"
         },
         {
           "title": "FUNKO POP! DEKU 596 GLOWS IN DARK ENTERTAINMENT EARTH EXCLUSIVE K01",
-          "price": 21.5846,
-          "price_display": "21,58 €"
+          "price": 21.6068,
+          "price_display": "21,61 €"
         },
         {
           "title": "Funko Pop! 596 Deku My Hero Academia Entertainment Earth Exclusive Glow",
-          "price": 27.0076,
-          "price_display": "27,01 €"
+          "price": 27.029799999999998,
+          "price_display": "27,03 €"
         },
         {
           "title": "Funko Pop! My Hero Academia Deku 596 Entertainment Earth Exclusive",
-          "price": 24.324599999999997,
-          "price_display": "24,32 €"
+          "price": 24.346799999999998,
+          "price_display": "24,35 €"
         },
         {
           "title": "Funko POP! Animazione: My Hero Academia - Deku (GiTD) (Entertainment Earth) #596",
-          "price": 24.5488,
-          "price_display": "24,55 €"
+          "price": 24.581000000000003,
+          "price_display": "24,58 €"
         },
         {
           "title": "Funko Pop! Animazione My Hero Academia Deku #596 Entertainment Earth Glow",
-          "price": 20.0992,
-          "price_display": "20,10 €"
+          "price": 20.1092,
+          "price_display": "20,11 €"
         },
         {
           "title": "Funko Pop! My Hero Academia Deku #596 Entertainment Earth Glow Figura in vinile",
-          "price": 21.125799999999998,
-          "price_display": "21,13 €"
-        },
-        {
-          "title": "FUNKO POP! MY HERO ACADEMIA #596 DEKU GITD ENTERTAINMENT EARTH EXCLUSIVE",
-          "price": 19.3814,
-          "price_display": "19,38 €"
+          "price": 21.158,
+          "price_display": "21,16 €"
         }
       ],
-      "average_price": 22.463625,
-      "average_price_display": "22,46 €",
+      "average_price": 23.39755,
+      "average_price_display": "23,40 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 22.463625,
-      "line_total_display": "22,46 €"
+      "line_total": 23.39755,
+      "line_total_display": "23,40 €"
     },
     {
       "name": "Kabuto Funko Pop",
@@ -3682,11 +3712,6 @@
           "price_display": "17,00 €"
         },
         {
-          "title": "FUNKO POP KABUTO YAKUSHI (49803) - NARUTO - ANIMATION - NUM. 936",
-          "price": 17.4,
-          "price_display": "17,40 €"
-        },
-        {
           "title": "Funko POP! #936 Kabuto Yakushi (Naruto Shippuden)",
           "price": 17.9,
           "price_display": "17,90 €"
@@ -3695,6 +3720,11 @@
           "title": "Funko Pop! n. 936 Naruto Shippuden - Kabuto Yakushi NUOVO",
           "price": 17.99,
           "price_display": "17,99 €"
+        },
+        {
+          "title": "FUNKO POP KABUTO YAKUSHI (49803) - NARUTO - ANIMATION - NUM. 936",
+          "price": 18.31,
+          "price_display": "18,31 €"
         },
         {
           "title": "FUNKO POP Naruto Kabuto Yakushi 936",
@@ -3712,11 +3742,11 @@
           "price_display": "20,00 €"
         }
       ],
-      "average_price": 17.893,
-      "average_price_display": "17,89 €",
+      "average_price": 17.984,
+      "average_price_display": "17,98 €",
       "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 17.893,
-      "line_total_display": "17,89 €"
+      "line_total": 17.984,
+      "line_total_display": "17,98 €"
     },
     {
       "name": "Gaara Funko Pop",
@@ -3726,68 +3756,33 @@
         "gaara",
         "728"
       ],
-      "scanned_rows": 42,
-      "valid_rows": 10,
+      "scanned_rows": 1,
+      "valid_rows": 3,
       "excluded_banned": 0,
       "excluded_bundle": 0,
-      "excluded_irrelevant": 5,
+      "excluded_irrelevant": 0,
       "used_sales": [
         {
-          "title": "Gadget - Naruto Shippuden: Funko Pop! Animation - Gaara (Vinyl Figure 728) -F- F",
-          "price": 20.28,
-          "price_display": "20,28 €"
+          "title": "Funko Pop! Animation: Naruto - Gaara - Vinyl Collectible Figure #728",
+          "price": 16.6652,
+          "price_display": "16,67 €"
         },
         {
-          "title": "Gadget - Naruto Shippuden: Funko Pop! Animation - Gaara (Vinyl Figure 728) -N- F",
-          "price": 20.28,
-          "price_display": "20,28 €"
+          "title": "Funko Pop! Animazione: Gaara Metallic #728 Naruto Shippuden Hot Topic Esclusivo",
+          "price": 17.0892,
+          "price_display": "17,09 €"
         },
         {
-          "title": "POP ANIMATION / FUNKO POP - GAARA N.728",
-          "price": 23.0,
-          "price_display": "23,00 €"
-        },
-        {
-          "title": "Gadget - Naruto Shippuden: Funko Pop! Animation - Gaara (Vinyl Figure 728) - Fun",
-          "price": 23.11,
-          "price_display": "23,11 €"
-        },
-        {
-          "title": "Naruto Shippuden POP! GAARA #728 Funko Funko",
-          "price": 23.9,
-          "price_display": "23,90 €"
-        },
-        {
-          "title": "Funko POP! Naruto Shippuden - Gaara #728",
-          "price": 24.0,
-          "price_display": "24,00 €"
-        },
-        {
-          "title": "MODELLINO- FUNKO POP ANIMATION- N° 728- NARUTO SHIPPUDEN- gaara- NUOVO",
-          "price": 24.0,
-          "price_display": "24,00 €"
-        },
-        {
-          "title": "Funko POP Animation Naruto Shippuden 728 Gaara",
-          "price": 24.9,
-          "price_display": "24,90 €"
-        },
-        {
-          "title": "Funko POP! Animation 728: Naruto Shippuden - Gaara Action Figure",
-          "price": 25.0,
-          "price_display": "25,00 €"
-        },
-        {
-          "title": "Funko Pop SERIE NARUTO GAARA #728",
-          "price": 25.9,
-          "price_display": "25,90 €"
+          "title": "Funko Pop! Vinile: Naruto - Gaara #728",
+          "price": 22.9722,
+          "price_display": "22,97 €"
         }
       ],
-      "average_price": 23.437,
-      "average_price_display": "23,44 €",
-      "note": "Prezzi da annunci attivi: media attivi inferiore ai venduti; uso il mercato corrente.",
-      "line_total": 23.437,
-      "line_total_display": "23,44 €"
+      "average_price": 18.90886666666667,
+      "average_price_display": "18,91 €",
+      "note": "Prezzi da venduti: merge di locale + internazionali.",
+      "line_total": 18.90886666666667,
+      "line_total_display": "18,91 €"
     },
     {
       "name": "Pegasus Funko Pop",
@@ -3805,30 +3800,30 @@
       "used_sales": [
         {
           "title": "Funko Pop! Animation Yu-Gi-Oh #716 Maximilian Pegasus",
-          "price": 17.1288,
-          "price_display": "17,13 €"
+          "price": 17.153200000000002,
+          "price_display": "17,15 €"
         },
         {
           "title": "Funko Pop Maximillion Pegasus #716 Yu-Gi-Oh! Figurina in vinile anime",
-          "price": 20.4892,
-          "price_display": "20,49 €"
+          "price": 20.5092,
+          "price_display": "20,51 €"
         },
         {
           "title": "Funko POP Vinyl - Animation - Yu Gi Oh - Maximillion Pegasus - #716 Figure",
-          "price": 20.5936,
-          "price_display": "20,59 €"
+          "price": 20.618,
+          "price_display": "20,62 €"
         },
         {
           "title": "Funko Pop Maximillion Pegasus #716 Yu-Gi-Oh! Figurina in vinile anime",
-          "price": 20.279400000000003,
-          "price_display": "20,28 €"
+          "price": 20.3016,
+          "price_display": "20,30 €"
         }
       ],
-      "average_price": 19.62275,
-      "average_price_display": "19,62 €",
+      "average_price": 19.6455,
+      "average_price_display": "19,65 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 19.62275,
-      "line_total_display": "19,62 €"
+      "line_total": 19.6455,
+      "line_total_display": "19,65 €"
     },
     {
       "name": "All For One Funko Pop",
@@ -3841,46 +3836,46 @@
       ],
       "scanned_rows": 61,
       "valid_rows": 6,
-      "excluded_banned": 7,
-      "excluded_bundle": 7,
-      "excluded_irrelevant": 39,
+      "excluded_banned": 6,
+      "excluded_bundle": 6,
+      "excluded_irrelevant": 41,
       "used_sales": [
         {
           "title": "Funko Pop! Vinyl Animation All For One #609 - My Hero Academia Figure 2019",
-          "price": 15.086399999999998,
-          "price_display": "15,09 €"
+          "price": 15.246399999999998,
+          "price_display": "15,25 €"
         },
         {
           "title": "Funko Pop! All For One #609 My Hero Academia POP! Personaggio in vinile animazione in scatola",
-          "price": 18.485,
-          "price_display": "18,48 €"
+          "price": 18.505,
+          "price_display": "18,50 €"
         },
         {
           "title": "All For One My Hero Academia Funko Pop! #609",
-          "price": 16.9418,
-          "price_display": "16,94 €"
+          "price": 16.9518,
+          "price_display": "16,95 €"
         },
         {
           "title": "Funko Pop! Modellino in vinile My Hero Academia All For One #609",
-          "price": 21.125799999999998,
-          "price_display": "21,13 €"
+          "price": 21.158,
+          "price_display": "21,16 €"
         },
         {
           "title": "FUNKO POP! ALL FOR ONE 609 MY HERO ACADEMIA U01",
-          "price": 16.250799999999998,
-          "price_display": "16,25 €"
+          "price": 16.273,
+          "price_display": "16,27 €"
         },
         {
           "title": "Funko POP! Animazione My Hero Academia All For One #609 Figura in vinile NON COME NUOVA",
-          "price": 20.352800000000002,
-          "price_display": "20,35 €"
+          "price": 20.375,
+          "price_display": "20,38 €"
         }
       ],
-      "average_price": 18.040433333333333,
-      "average_price_display": "18,04 €",
+      "average_price": 18.084866666666667,
+      "average_price_display": "18,08 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 18.040433333333333,
-      "line_total_display": "18,04 €"
+      "line_total": 18.084866666666667,
+      "line_total_display": "18,08 €"
     },
     {
       "name": "Albus Funko Pop",
@@ -3890,33 +3885,33 @@
         "albus",
         "15"
       ],
-      "scanned_rows": 15,
+      "scanned_rows": 12,
       "valid_rows": 3,
       "excluded_banned": 1,
       "excluded_bundle": 1,
-      "excluded_irrelevant": 3,
+      "excluded_irrelevant": 0,
       "used_sales": [
         {
           "title": "FUNKO POP! VINYL - THE CRIMES OF GRINDELWALD - ALBUS DUMBLEDORE #15",
-          "price": 7.991,
-          "price_display": "7,99 €"
+          "price": 8.0032,
+          "price_display": "8,00 €"
         },
         {
           "title": "FUNKO HARRY POTTER BITTY POP \"ALBUS SILENTE\" #15",
-          "price": 14.091600000000001,
-          "price_display": "14,09 €"
+          "price": 14.1016,
+          "price_display": "14,10 €"
         },
         {
           "title": "Funko Bitty Pop Harry Potter Albus Dumbledore #15 (0.9-inches tall)",
-          "price": 8.5522,
-          "price_display": "8,55 €"
+          "price": 8.5644,
+          "price_display": "8,56 €"
         }
       ],
-      "average_price": 10.211599999999999,
-      "average_price_display": "10,21 €",
+      "average_price": 10.223066666666666,
+      "average_price_display": "10,22 €",
       "note": "Prezzi da venduti: merge di locale + internazionali.",
-      "line_total": 10.211599999999999,
-      "line_total_display": "10,21 €"
+      "line_total": 10.223066666666666,
+      "line_total_display": "10,22 €"
     }
   ],
   "values": [
@@ -3963,18 +3958,18 @@
     {
       "name": "Medusa Funko Pop",
       "quantity": 1,
-      "unit_price": 77.703075,
-      "price_display": "77,70 €",
-      "line_total": 77.703075,
-      "line_total_display": "77,70 €"
+      "unit_price": 77.752875,
+      "price_display": "77,75 €",
+      "line_total": 77.752875,
+      "line_total_display": "77,75 €"
     },
     {
       "name": "V Vendetta Funko Pop",
       "quantity": 1,
-      "unit_price": 76.9987,
-      "price_display": "77,00 €",
-      "line_total": 76.9987,
-      "line_total_display": "77,00 €"
+      "unit_price": 77.05834999999999,
+      "price_display": "77,06 €",
+      "line_total": 77.05834999999999,
+      "line_total_display": "77,06 €"
     },
     {
       "name": "L Death Note Funko Pop",
@@ -3987,18 +3982,18 @@
     {
       "name": "Sasuke vs Naruto Gamestop Funko Pop",
       "quantity": 1,
-      "unit_price": 71.63504,
-      "price_display": "71,64 €",
-      "line_total": 71.63504,
-      "line_total_display": "71,64 €"
+      "unit_price": 70.59067999999999,
+      "price_display": "70,59 €",
+      "line_total": 70.59067999999999,
+      "line_total_display": "70,59 €"
     },
     {
       "name": "Kurama Hot Topic Funko Pop",
       "quantity": 1,
-      "unit_price": 69.62089999999999,
-      "price_display": "69,62 €",
-      "line_total": 69.62089999999999,
-      "line_total_display": "69,62 €"
+      "unit_price": 66.98628571428571,
+      "price_display": "66,99 €",
+      "line_total": 66.98628571428571,
+      "line_total_display": "66,99 €"
     },
     {
       "name": "Meruem Chalice Funko Pop",
@@ -4009,14 +4004,6 @@
       "line_total_display": "66,59 €"
     },
     {
-      "name": "Tanjiro & Urokodaki Funko Pop",
-      "quantity": 1,
-      "unit_price": 59.507349999999995,
-      "price_display": "59,51 €",
-      "line_total": 59.507349999999995,
-      "line_total_display": "59,51 €"
-    },
-    {
       "name": "Ryuk Funko Pop",
       "quantity": 1,
       "unit_price": 56.8,
@@ -4025,100 +4012,108 @@
       "line_total_display": "56,80 €"
     },
     {
-      "name": "Mikasa Chalice Funko Pop",
+      "name": "Kurama Funko Pop",
       "quantity": 1,
-      "unit_price": 53.44724,
-      "price_display": "53,45 €",
-      "line_total": 53.44724,
-      "line_total_display": "53,45 €"
+      "unit_price": 54.36076666666667,
+      "price_display": "54,36 €",
+      "line_total": 54.36076666666667,
+      "line_total_display": "54,36 €"
     },
     {
       "name": "Cleaning Levi Hot Topic Funko Pop",
       "quantity": 1,
-      "unit_price": 52.417975,
-      "price_display": "52,42 €",
-      "line_total": 52.417975,
-      "line_total_display": "52,42 €"
+      "unit_price": 53.8824,
+      "price_display": "53,88 €",
+      "line_total": 53.8824,
+      "line_total_display": "53,88 €"
     },
     {
-      "name": "Kurama Funko Pop",
+      "name": "Mikasa Chalice Funko Pop",
       "quantity": 1,
-      "unit_price": 50.96396666666667,
-      "price_display": "50,96 €",
-      "line_total": 50.96396666666667,
-      "line_total_display": "50,96 €"
-    },
-    {
-      "name": "Satoru Gojo Funko Pop",
-      "quantity": 1,
-      "unit_price": 49.817485714285716,
-      "price_display": "49,82 €",
-      "line_total": 49.817485714285716,
-      "line_total_display": "49,82 €"
-    },
-    {
-      "name": "Terrible Tornado Chase Funko Pop",
-      "quantity": 1,
-      "unit_price": 49.58824,
-      "price_display": "49,59 €",
-      "line_total": 49.58824,
-      "line_total_display": "49,59 €"
+      "unit_price": 53.486360000000005,
+      "price_display": "53,49 €",
+      "line_total": 53.486360000000005,
+      "line_total_display": "53,49 €"
     },
     {
       "name": "Bakugo Funko Pop",
       "quantity": 2,
-      "unit_price": 48.7064,
-      "price_display": "48,71 €",
-      "line_total": 97.4128,
-      "line_total_display": "97,41 €"
+      "unit_price": 52.25,
+      "price_display": "52,25 €",
+      "line_total": 104.5,
+      "line_total_display": "104,50 €"
+    },
+    {
+      "name": "Terrible Tornado Chase Funko Pop",
+      "quantity": 1,
+      "unit_price": 49.61932,
+      "price_display": "49,62 €",
+      "line_total": 49.61932,
+      "line_total_display": "49,62 €"
+    },
+    {
+      "name": "Tanjiro & Urokodaki Funko Pop",
+      "quantity": 1,
+      "unit_price": 49.28233333333333,
+      "price_display": "49,28 €",
+      "line_total": 49.28233333333333,
+      "line_total_display": "49,28 €"
+    },
+    {
+      "name": "Satoru Gojo Funko Pop",
+      "quantity": 1,
+      "unit_price": 48.827857142857134,
+      "price_display": "48,83 €",
+      "line_total": 48.827857142857134,
+      "line_total_display": "48,83 €"
     },
     {
       "name": "Tanjiro Galactic Chase Toys Funko Pop",
       "quantity": 1,
-      "unit_price": 47.821275,
-      "price_display": "47,82 €",
-      "line_total": 47.821275,
-      "line_total_display": "47,82 €"
+      "unit_price": 47.856375,
+      "price_display": "47,86 €",
+      "line_total": 47.856375,
+      "line_total_display": "47,86 €"
+    },
+    {
+      "name": "Naruto Noodles Box Lunch Funko Pop",
+      "quantity": 1,
+      "unit_price": 42.98095555555555,
+      "price_display": "42,98 €",
+      "line_total": 42.98095555555555,
+      "line_total_display": "42,98 €"
     },
     {
       "name": "Itachi Crows Box Lunch Funko Pop",
       "quantity": 1,
-      "unit_price": 42.86493333333333,
-      "price_display": "42,86 €",
-      "line_total": 42.86493333333333,
-      "line_total_display": "42,86 €"
+      "unit_price": 42.8962,
+      "price_display": "42,90 €",
+      "line_total": 42.8962,
+      "line_total_display": "42,90 €"
     },
     {
       "name": "Stain Funko Pop",
       "quantity": 2,
-      "unit_price": 38.607866666666666,
-      "price_display": "38,61 €",
-      "line_total": 77.21573333333333,
-      "line_total_display": "77,22 €"
+      "unit_price": 39.636559999999996,
+      "price_display": "39,64 €",
+      "line_total": 79.27311999999999,
+      "line_total_display": "79,27 €"
     },
     {
       "name": "Itachi AE Exclusive Funko Pop",
       "quantity": 1,
-      "unit_price": 36.9935,
-      "price_display": "36,99 €",
-      "line_total": 36.9935,
-      "line_total_display": "36,99 €"
+      "unit_price": 37.015699999999995,
+      "price_display": "37,02 €",
+      "line_total": 37.015699999999995,
+      "line_total_display": "37,02 €"
     },
     {
       "name": "Pain Chalice Funko Pop",
       "quantity": 1,
-      "unit_price": 36.767199999999995,
-      "price_display": "36,77 €",
-      "line_total": 36.767199999999995,
-      "line_total_display": "36,77 €"
-    },
-    {
-      "name": "Naruto Hokage AAA Anime Funko Pop",
-      "quantity": 1,
-      "unit_price": 35.62472,
-      "price_display": "35,62 €",
-      "line_total": 35.62472,
-      "line_total_display": "35,62 €"
+      "unit_price": 36.39946666666667,
+      "price_display": "36,40 €",
+      "line_total": 36.39946666666667,
+      "line_total_display": "36,40 €"
     },
     {
       "name": "Todoroki Funko Pop",
@@ -4131,58 +4126,50 @@
     {
       "name": "Shigaraki Galactic Toys Funko Pop",
       "quantity": 1,
-      "unit_price": 34.90578,
-      "price_display": "34,91 €",
-      "line_total": 34.90578,
-      "line_total_display": "34,91 €"
-    },
-    {
-      "name": "Naruto Noodles Box Lunch Funko Pop",
-      "quantity": 1,
-      "unit_price": 33.6474,
-      "price_display": "33,65 €",
-      "line_total": 33.6474,
-      "line_total_display": "33,65 €"
+      "unit_price": 35.101780000000005,
+      "price_display": "35,10 €",
+      "line_total": 35.101780000000005,
+      "line_total_display": "35,10 €"
     },
     {
       "name": "Kakashi Hot Topic Funko Pop",
       "quantity": 1,
-      "unit_price": 32.806740000000005,
-      "price_display": "32,81 €",
-      "line_total": 32.806740000000005,
-      "line_total_display": "32,81 €"
+      "unit_price": 33.82004,
+      "price_display": "33,82 €",
+      "line_total": 33.82004,
+      "line_total_display": "33,82 €"
+    },
+    {
+      "name": "Naruto Hokage AAA Anime Funko Pop",
+      "quantity": 1,
+      "unit_price": 33.74242,
+      "price_display": "33,74 €",
+      "line_total": 33.74242,
+      "line_total_display": "33,74 €"
     },
     {
       "name": "Naruto Six Path Hot Topic GITD Funko Pop",
       "quantity": 1,
-      "unit_price": 31.661175,
-      "price_display": "31,66 €",
-      "line_total": 31.661175,
-      "line_total_display": "31,66 €"
+      "unit_price": 31.768533333333334,
+      "price_display": "31,77 €",
+      "line_total": 31.768533333333334,
+      "line_total_display": "31,77 €"
     },
     {
       "name": "Kurapika FYE Funko Pop",
       "quantity": 1,
-      "unit_price": 30.96522857142857,
-      "price_display": "30,97 €",
-      "line_total": 30.96522857142857,
-      "line_total_display": "30,97 €"
+      "unit_price": 31.018857142857144,
+      "price_display": "31,02 €",
+      "line_total": 31.018857142857144,
+      "line_total_display": "31,02 €"
     },
     {
       "name": "Vegeta Super Saiyan PX Funko Pop",
       "quantity": 1,
-      "unit_price": 30.308159999999997,
-      "price_display": "30,31 €",
-      "line_total": 30.308159999999997,
-      "line_total_display": "30,31 €"
-    },
-    {
-      "name": "Marco Funko Pop",
-      "quantity": 1,
-      "unit_price": 30.0,
-      "price_display": "30,00 €",
-      "line_total": 30.0,
-      "line_total_display": "30,00 €"
+      "unit_price": 30.630333333333336,
+      "price_display": "30,63 €",
+      "line_total": 30.630333333333336,
+      "line_total_display": "30,63 €"
     },
     {
       "name": "Zero Funko Pop",
@@ -4193,44 +4180,60 @@
       "line_total_display": "29,45 €"
     },
     {
-      "name": "Levi Funko Pop",
+      "name": "Mihawk Funko Pop",
       "quantity": 1,
-      "unit_price": 29.187133333333335,
-      "price_display": "29,19 €",
-      "line_total": 29.187133333333335,
-      "line_total_display": "29,19 €"
-    },
-    {
-      "name": "Mr Compress Funko Pop",
-      "quantity": 1,
-      "unit_price": 28.802142857142858,
+      "unit_price": 28.798000000000002,
       "price_display": "28,80 €",
-      "line_total": 28.802142857142858,
+      "line_total": 28.798000000000002,
       "line_total_display": "28,80 €"
     },
     {
       "name": "Gaara Hot Topic Funko Pop",
       "quantity": 1,
-      "unit_price": 28.729699999999998,
-      "price_display": "28,73 €",
-      "line_total": 28.729699999999998,
-      "line_total_display": "28,73 €"
+      "unit_price": 28.75153333333333,
+      "price_display": "28,75 €",
+      "line_total": 28.75153333333333,
+      "line_total_display": "28,75 €"
     },
     {
       "name": "Madara Reanimation Gamestop Funko Pop",
       "quantity": 1,
-      "unit_price": 28.620179999999998,
-      "price_display": "28,62 €",
-      "line_total": 28.620179999999998,
-      "line_total_display": "28,62 €"
+      "unit_price": 28.61204,
+      "price_display": "28,61 €",
+      "line_total": 28.61204,
+      "line_total_display": "28,61 €"
     },
     {
-      "name": "Mihawk Funko Pop",
+      "name": "Mr Compress Funko Pop",
       "quantity": 1,
-      "unit_price": 28.331666666666667,
-      "price_display": "28,33 €",
-      "line_total": 28.331666666666667,
-      "line_total_display": "28,33 €"
+      "unit_price": 28.259825,
+      "price_display": "28,26 €",
+      "line_total": 28.259825,
+      "line_total_display": "28,26 €"
+    },
+    {
+      "name": "Naruto Rasengan Funko Pop",
+      "quantity": 1,
+      "unit_price": 26.862399999999997,
+      "price_display": "26,86 €",
+      "line_total": 26.862399999999997,
+      "line_total_display": "26,86 €"
+    },
+    {
+      "name": "Minato Namikaze AAA Anime Funko Pop",
+      "quantity": 1,
+      "unit_price": 26.721575,
+      "price_display": "26,72 €",
+      "line_total": 26.721575,
+      "line_total_display": "26,72 €"
+    },
+    {
+      "name": "Levi Funko Pop",
+      "quantity": 1,
+      "unit_price": 26.615879999999997,
+      "price_display": "26,62 €",
+      "line_total": 26.615879999999997,
+      "line_total_display": "26,62 €"
     },
     {
       "name": "Midnight Special Edition Funko Pop",
@@ -4241,44 +4244,28 @@
       "line_total_display": "26,22 €"
     },
     {
-      "name": "Minato Namikaze AAA Anime Funko Pop",
+      "name": "Marco Funko Pop",
       "quantity": 1,
-      "unit_price": 25.853875000000002,
-      "price_display": "25,85 €",
-      "line_total": 25.853875000000002,
-      "line_total_display": "25,85 €"
-    },
-    {
-      "name": "Naruto Rasengan Funko Pop",
-      "quantity": 1,
-      "unit_price": 25.13825,
-      "price_display": "25,14 €",
-      "line_total": 25.13825,
-      "line_total_display": "25,14 €"
-    },
-    {
-      "name": "Dragon Shiryu Funko Pop",
-      "quantity": 1,
-      "unit_price": 24.9951,
-      "price_display": "25,00 €",
-      "line_total": 24.9951,
-      "line_total_display": "25,00 €"
+      "unit_price": 25.0306,
+      "price_display": "25,03 €",
+      "line_total": 25.0306,
+      "line_total_display": "25,03 €"
     },
     {
       "name": "Whis Galactic Toys Funko Pop",
       "quantity": 1,
-      "unit_price": 24.685666666666666,
-      "price_display": "24,69 €",
-      "line_total": 24.685666666666666,
-      "line_total_display": "24,69 €"
+      "unit_price": 24.700466666666667,
+      "price_display": "24,70 €",
+      "line_total": 24.700466666666667,
+      "line_total_display": "24,70 €"
     },
     {
-      "name": "Charizard Funko Pop",
+      "name": "Dragon Shiryu Funko Pop",
       "quantity": 1,
-      "unit_price": 24.11583333333333,
-      "price_display": "24,12 €",
-      "line_total": 24.11583333333333,
-      "line_total_display": "24,12 €"
+      "unit_price": 24.688025,
+      "price_display": "24,69 €",
+      "line_total": 24.688025,
+      "line_total_display": "24,69 €"
     },
     {
       "name": "Minato Funko Pop",
@@ -4297,6 +4284,14 @@
       "line_total_display": "23,86 €"
     },
     {
+      "name": "Charizard Funko Pop",
+      "quantity": 1,
+      "unit_price": 23.633999999999997,
+      "price_display": "23,63 €",
+      "line_total": 23.633999999999997,
+      "line_total_display": "23,63 €"
+    },
+    {
       "name": "Naruto Six Path Funko Pop",
       "quantity": 1,
       "unit_price": 23.633333333333336,
@@ -4305,36 +4300,12 @@
       "line_total_display": "23,63 €"
     },
     {
-      "name": "Gaara Funko Pop",
-      "quantity": 1,
-      "unit_price": 23.437,
-      "price_display": "23,44 €",
-      "line_total": 23.437,
-      "line_total_display": "23,44 €"
-    },
-    {
-      "name": "Nairobi Funko Pop",
-      "quantity": 1,
-      "unit_price": 22.71142857142857,
-      "price_display": "22,71 €",
-      "line_total": 22.71142857142857,
-      "line_total_display": "22,71 €"
-    },
-    {
       "name": "Deku Entertainment Earth Funko Pop",
       "quantity": 1,
-      "unit_price": 22.463625,
-      "price_display": "22,46 €",
-      "line_total": 22.463625,
-      "line_total_display": "22,46 €"
-    },
-    {
-      "name": "Cygnus Hyoga Funko Pop",
-      "quantity": 1,
-      "unit_price": 22.413999999999998,
-      "price_display": "22,41 €",
-      "line_total": 22.413999999999998,
-      "line_total_display": "22,41 €"
+      "unit_price": 23.39755,
+      "price_display": "23,40 €",
+      "line_total": 23.39755,
+      "line_total_display": "23,40 €"
     },
     {
       "name": "Pain Funko Pop",
@@ -4353,6 +4324,22 @@
       "line_total_display": "21,96 €"
     },
     {
+      "name": "Nairobi Funko Pop",
+      "quantity": 1,
+      "unit_price": 21.84096,
+      "price_display": "21,84 €",
+      "line_total": 21.84096,
+      "line_total_display": "21,84 €"
+    },
+    {
+      "name": "Sasuke Uchiha Funko Pop",
+      "quantity": 1,
+      "unit_price": 21.749,
+      "price_display": "21,75 €",
+      "line_total": 21.749,
+      "line_total_display": "21,75 €"
+    },
+    {
       "name": "Doflamingo Funko Pop",
       "quantity": 1,
       "unit_price": 21.56888888888889,
@@ -4369,20 +4356,12 @@
       "line_total_display": "21,20 €"
     },
     {
-      "name": "Mayor Funko Pop",
-      "quantity": 1,
-      "unit_price": 20.736733333333333,
-      "price_display": "20,74 €",
-      "line_total": 20.736733333333333,
-      "line_total_display": "20,74 €"
-    },
-    {
       "name": "Berlin Funko Pop",
       "quantity": 1,
-      "unit_price": 20.637266666666665,
-      "price_display": "20,64 €",
-      "line_total": 20.637266666666665,
-      "line_total_display": "20,64 €"
+      "unit_price": 20.656133333333333,
+      "price_display": "20,66 €",
+      "line_total": 20.656133333333333,
+      "line_total_display": "20,66 €"
     },
     {
       "name": "Andromeda Shun Funko Pop",
@@ -4391,14 +4370,6 @@
       "price_display": "20,46 €",
       "line_total": 20.46333333333333,
       "line_total_display": "20,46 €"
-    },
-    {
-      "name": "Sasuke Uchiha Funko Pop",
-      "quantity": 1,
-      "unit_price": 20.151249999999997,
-      "price_display": "20,15 €",
-      "line_total": 20.151249999999997,
-      "line_total_display": "20,15 €"
     },
     {
       "name": "Yugi Muto Funko Pop",
@@ -4411,10 +4382,10 @@
     {
       "name": "Harry Potter Funko Pop",
       "quantity": 1,
-      "unit_price": 20.006,
-      "price_display": "20,01 €",
-      "line_total": 20.006,
-      "line_total_display": "20,01 €"
+      "unit_price": 19.907,
+      "price_display": "19,91 €",
+      "line_total": 19.907,
+      "line_total_display": "19,91 €"
     },
     {
       "name": "Orochimaru Funko Pop",
@@ -4425,20 +4396,44 @@
       "line_total_display": "19,90 €"
     },
     {
+      "name": "Cygnus Hyoga Funko Pop",
+      "quantity": 1,
+      "unit_price": 19.866933333333332,
+      "price_display": "19,87 €",
+      "line_total": 19.866933333333332,
+      "line_total_display": "19,87 €"
+    },
+    {
       "name": "Pegasus Funko Pop",
       "quantity": 1,
-      "unit_price": 19.62275,
-      "price_display": "19,62 €",
-      "line_total": 19.62275,
-      "line_total_display": "19,62 €"
+      "unit_price": 19.6455,
+      "price_display": "19,65 €",
+      "line_total": 19.6455,
+      "line_total_display": "19,65 €"
+    },
+    {
+      "name": "Gaara Funko Pop",
+      "quantity": 1,
+      "unit_price": 18.90886666666667,
+      "price_display": "18,91 €",
+      "line_total": 18.90886666666667,
+      "line_total_display": "18,91 €"
     },
     {
       "name": "Sasuke Funko Pop",
       "quantity": 1,
-      "unit_price": 18.681559999999998,
-      "price_display": "18,68 €",
-      "line_total": 18.681559999999998,
-      "line_total_display": "18,68 €"
+      "unit_price": 18.70088,
+      "price_display": "18,70 €",
+      "line_total": 18.70088,
+      "line_total_display": "18,70 €"
+    },
+    {
+      "name": "All For One Funko Pop",
+      "quantity": 1,
+      "unit_price": 18.084866666666667,
+      "price_display": "18,08 €",
+      "line_total": 18.084866666666667,
+      "line_total_display": "18,08 €"
     },
     {
       "name": "Rock Lee Funko Pop",
@@ -4449,20 +4444,20 @@
       "line_total_display": "18,08 €"
     },
     {
-      "name": "All For One Funko Pop",
+      "name": "Mayor Funko Pop",
       "quantity": 1,
-      "unit_price": 18.040433333333333,
-      "price_display": "18,04 €",
-      "line_total": 18.040433333333333,
-      "line_total_display": "18,04 €"
+      "unit_price": 18.048333333333332,
+      "price_display": "18,05 €",
+      "line_total": 18.048333333333332,
+      "line_total_display": "18,05 €"
     },
     {
       "name": "Kabuto Funko Pop",
       "quantity": 1,
-      "unit_price": 17.893,
-      "price_display": "17,89 €",
-      "line_total": 17.893,
-      "line_total_display": "17,89 €"
+      "unit_price": 17.984,
+      "price_display": "17,98 €",
+      "line_total": 17.984,
+      "line_total_display": "17,98 €"
     },
     {
       "name": "Naruto Funko Pop",
@@ -4491,30 +4486,30 @@
     {
       "name": "Tsunade Funko Pop",
       "quantity": 1,
-      "unit_price": 15.92305,
-      "price_display": "15,92 €",
-      "line_total": 15.92305,
-      "line_total_display": "15,92 €"
+      "unit_price": 15.9397,
+      "price_display": "15,94 €",
+      "line_total": 15.9397,
+      "line_total_display": "15,94 €"
     },
     {
       "name": "Overhaul Funko Pop",
       "quantity": 1,
-      "unit_price": 13.65515,
-      "price_display": "13,66 €",
-      "line_total": 13.65515,
-      "line_total_display": "13,66 €"
+      "unit_price": 13.6682,
+      "price_display": "13,67 €",
+      "line_total": 13.6682,
+      "line_total_display": "13,67 €"
     },
     {
       "name": "Albus Funko Pop",
       "quantity": 1,
-      "unit_price": 10.211599999999999,
-      "price_display": "10,21 €",
-      "line_total": 10.211599999999999,
-      "line_total_display": "10,21 €"
+      "unit_price": 10.223066666666666,
+      "price_display": "10,22 €",
+      "line_total": 10.223066666666666,
+      "line_total_display": "10,22 €"
     }
   ],
-  "sum_total": 2813.1947734920636,
-  "sum_total_display": "2.813,19 €",
+  "sum_total": 2807.602105,
+  "sum_total_display": "2.807,60 €",
   "objects_examined_total_quantity": 76,
   "objects_with_valid_price_total_quantity": 76
 }
