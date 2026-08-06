@@ -6,6 +6,7 @@ import json
 import re
 import time
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -784,7 +785,13 @@ def navigate_with_retries(
         return not is_access_blocked(page)
 
     for attempt in range(1, max_denied_retries + 1):
-        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        except PlaywrightError as exc:
+            if attempt < max_denied_retries:
+                print(f"[WARN] Errore navigazione per '{name}' ({phase_label}, tentativo {attempt}/{max_denied_retries}): {exc}")
+                continue
+            return False
         wait_for_ebay_results(page, timeout_ms)
         if is_login_page(page):
             print(f"[INFO] Login eBay rilevato per '{name}' ({phase_label}), provo modalita guest...")
@@ -1045,7 +1052,7 @@ def scrape_product(
             max_valid_sales=max_valid_sales,
             max_allowed_price=max_allowed_price,
             adjust_international_costs=True,
-            limit_mode="page_order",
+            limit_mode="stable",
         )
 
         if not valid_sales:
@@ -1068,7 +1075,7 @@ def scrape_product(
                     max_valid_sales=max_valid_sales,
                     max_allowed_price=max_allowed_price,
                     adjust_international_costs=True,
-                    limit_mode="page_order",
+                    limit_mode="stable",
                 )
 
     sold_it_found = len(valid_sales)
@@ -1105,7 +1112,7 @@ def scrape_product(
                     stop_on_related_sections=False,
                     adjust_international_costs=True,
                     force_international_rows=True,
-                    limit_mode="page_order",
+                    limit_mode="stable",
                 )
 
                 # Merge with existing valid_sales (both local and international)
@@ -1500,6 +1507,12 @@ def main() -> None:
         help="Timeout pagina in millisecondi.",
     )
     parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Numero di tab parallele (default: 1). Es. --workers 4 per processare 4 Pop contemporaneamente.",
+    )
+    parser.add_argument(
         "--banned",
         nargs="*",
         default=DEFAULT_BANNED,
@@ -1513,86 +1526,115 @@ def main() -> None:
 
     products = load_products(Path(args.config))
 
-    results: list[ProductResult] = []
+    num_workers = max(1, args.workers)
 
-    with sync_playwright() as p:
-        browser, context, context_is_browser = create_browser_context(p, args)
-        if args.browser_mode == "connect-cdp" and args.use_existing_page:
-            existing_pages = [pg for pg in context.pages if not pg.url.startswith("about:blank")]
-            if existing_pages:
-                page = existing_pages[0]
-                print(f"[INFO] Riuso tab esistente: {page.url}")
+    # Partition products into N groups (round-robin).
+    groups: list[list[tuple[int, dict[str, Any]]]] = [[] for _ in range(num_workers)]
+    for idx, product in enumerate(products):
+        groups[idx % num_workers].append((idx, product))
+
+    def scrape_product_from_dict(idx: int, product: dict[str, Any], page: Any) -> tuple[int, ProductResult]:
+        name = str(product.get("name") or product.get("url"))
+        url = str(product["url"])
+        quantity = max(1, int(product.get("quantity", 1)))
+        required_number: str | None = str(product["required_number"]) if product.get("required_number") else None
+        allowed_title_numbers: list[str] | None = None
+        if isinstance(product.get("allowed_title_numbers"), list):
+            normalized_allowed: list[str] = []
+            for item in product["allowed_title_numbers"]:
+                value = str(item).strip()
+                if value.isdigit():
+                    normalized_allowed.append(str(int(value)))
+            allowed_title_numbers = normalized_allowed
+
+        try:
+            result = scrape_product(
+                page,
+                name=name,
+                url=url,
+                quantity=quantity,
+                banned_words=args.banned,
+                max_valid_sales=args.max_valid_sales,
+                timeout_ms=args.timeout_ms,
+                manual_challenge=args.manual_challenge,
+                manual_challenge_timeout_seconds=args.manual_challenge_timeout_seconds,
+                required_number=required_number,
+                allowed_title_numbers=allowed_title_numbers,
+            )
+        except PlaywrightTimeoutError:
+            result = ProductResult(
+                name=name,
+                url=url,
+                quantity=quantity,
+                query_tokens=[],
+                scanned_rows=0,
+                valid_rows=0,
+                excluded_banned=0,
+                excluded_irrelevant=0,
+                excluded_bundle=0,
+                used_sales=[],
+                average_price=None,
+                average_price_display=None,
+                note="Timeout durante il caricamento della pagina.",
+            )
+
+        if result.average_price is None:
+            print(f"[MEDIA] {result.name}: nessun prezzo valido")
+        else:
+            line_total = result.average_price * result.quantity
+            source_label = "listati" if (result.note and "annunci attivi" in result.note.lower()) else "vendite"
+            print(
+                f"[MEDIA] {result.name}: {result.average_price_display} x {result.quantity} = {format_euro(line_total)} "
+                f"(su {len(result.used_sales)} {source_label})"
+            )
+        print()
+        return idx, result
+
+    def run_worker_group(worker_idx: int, group: list[tuple[int, dict[str, Any]]]) -> list[tuple[int, ProductResult]]:
+        # Each worker thread owns its own sync_playwright instance and page —
+        # playwright's sync_api uses greenlets that cannot cross thread boundaries.
+        with sync_playwright() as p:
+            browser, context, context_is_browser = create_browser_context(p, args)
+            context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+
+            if args.browser_mode == "connect-cdp":
+                # Reuse the tab at position worker_idx if it already exists, so
+                # repeated runs always land on the same tabs instead of opening new ones.
+                existing_pages = [pg for pg in context.pages if not pg.url.startswith("about:blank")]
+                if worker_idx < len(existing_pages):
+                    page = existing_pages[worker_idx]
+                    print(f"[INFO] Worker {worker_idx}: riuso tab esistente [{worker_idx}]: {page.url}")
+                else:
+                    page = context.new_page()
+                    print(f"[INFO] Worker {worker_idx}: nessun tab [{worker_idx}] trovato, apro un nuovo tab.")
             else:
                 page = context.new_page()
-                print("[INFO] Nessun tab esistente trovato, apro un nuovo tab.")
-        else:
-            page = context.new_page()
 
-        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+            worker_results = [scrape_product_from_dict(idx, product, page) for idx, product in group]
 
-        for product in products:
-            name = str(product.get("name") or product.get("url"))
-            url = str(product["url"])
-            quantity = max(1, int(product.get("quantity", 1)))
-            required_number: str | None = str(product["required_number"]) if product.get("required_number") else None
-            allowed_title_numbers: list[str] | None = None
-            if isinstance(product.get("allowed_title_numbers"), list):
-                normalized_allowed: list[str] = []
-                for item in product["allowed_title_numbers"]:
-                    value = str(item).strip()
-                    if value.isdigit():
-                        normalized_allowed.append(str(int(value)))
-                allowed_title_numbers = normalized_allowed
+            context.close()
+            if not context_is_browser:
+                browser.close()
 
-            try:
-                result = scrape_product(
-                    page,
-                    name=name,
-                    url=url,
-                    quantity=quantity,
-                    banned_words=args.banned,
-                    max_valid_sales=args.max_valid_sales,
-                    timeout_ms=args.timeout_ms,
-                    manual_challenge=args.manual_challenge,
-                    manual_challenge_timeout_seconds=args.manual_challenge_timeout_seconds,
-                    required_number=required_number,
-                    allowed_title_numbers=allowed_title_numbers,
-                )
-            except PlaywrightTimeoutError:
-                result = ProductResult(
-                    name=name,
-                    url=url,
-                    quantity=quantity,
-                    query_tokens=[],
-                    scanned_rows=0,
-                    valid_rows=0,
-                    excluded_banned=0,
-                    excluded_irrelevant=0,
-                    excluded_bundle=0,
-                    used_sales=[],
-                    average_price=None,
-                    average_price_display=None,
-                    note="Timeout durante il caricamento della pagina.",
-                )
+        return worker_results
 
-            results.append(result)
+    indexed_results: list[tuple[int, ProductResult]] = []
 
-            if result.average_price is None:
-                print(f"[MEDIA] {result.name}: nessun prezzo valido")
-            else:
-                line_total = result.average_price * result.quantity
-                source_label = "listati" if (result.note and "annunci attivi" in result.note.lower()) else "vendite"
-                print(
-                    f"[MEDIA] {result.name}: {result.average_price_display} x {result.quantity} = {format_euro(line_total)} "
-                    f"(su {len(result.used_sales)} {source_label})"
-                )
+    if num_workers == 1:
+        indexed_results = run_worker_group(0, groups[0])
+    else:
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            futures = [
+                executor.submit(run_worker_group, i, groups[i])
+                for i in range(num_workers)
+                if groups[i]
+            ]
+            for future in as_completed(futures):
+                indexed_results.extend(future.result())
 
-            # Blank line between one POP flow and the next for readability.
-            print()
-
-        context.close()
-        if not context_is_browser:
-            browser.close()
+    # Restore original product order.
+    indexed_results.sort(key=lambda t: t[0])
+    results = [r for _, r in indexed_results]
 
     payload: list[dict[str, Any]] = []
     values_list: list[tuple[str, int, float, float, str]] = []

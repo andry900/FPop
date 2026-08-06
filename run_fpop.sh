@@ -52,4 +52,5 @@ exec "$VENV_PYTHON" "$SCRAPER" \
   --use-existing-page \
   --manual-challenge \
   --manual-challenge-timeout-seconds 180 \
+  --workers 8 \
   "$@"
